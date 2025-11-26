@@ -1,0 +1,8 @@
+Ne spune ca administratorul a creat un site sa poata lua cateva .png-uri, 
+Si crede ca nu putem ocoli filtrele, trebuie sa trecem pe partea cealalta, si format-ul steagului
+ar fi CTF{sha256}
+
+
+Rezolvare:
+
+1. accesam site-ul si observam ca 

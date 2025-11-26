@@ -1,0 +1,14 @@
+Are you an admin?
+
+Flag format: CTF{sha265}
+
+
+ SERVICE INSTANCE
+You need to interact with this service in order to solve this task.
+ 
+Address: 34.185.167.212:32394
+Status: Alive
+Will terminate in: in approximately an hour
+Last Restart: Never restarted
+Restart Requests: 0 requested / 4 required
+

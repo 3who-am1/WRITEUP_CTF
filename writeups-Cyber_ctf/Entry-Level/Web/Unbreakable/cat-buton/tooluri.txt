@@ -1,0 +1,71 @@
+Explicatie comenzilor al curl:
+
+1. curl                                ---> Tool care descarcă conținutul unui site/link (ca un browser fără interfață)
+2. curl url                            ---> Îți arată tot HTML-ul/pagina/textul răspunsului
+3. curl -I url                         ---> Doar HEADERS (fără body) – vezi status code, cookies, redirect etc.
+4. curl -L url                         ---> Urmărește redirect-urile automat
+5. curl -O url                         ---> Descarcă fișierul cu numele original
+6. curl -o nume url                    ---> Descarcă și salvează cu nume ales de tine
+7. curl -b "cookie=val"                ---> Trimite cookie-uri
+8. curl -H "Auth: Bearer abc123"       ---> Trimite header custom (ex: token)
+9. curl -X POST -d "user=admin&pw=123" ---> Trimite POST cu date
+
+
+
+I. TEORIE si EXPLICATIE
+
+JSON:
+
+JSON = format text foarte simplu și universal folosit să trimiți date între server 
+       și client (API-uri, CTF web etc.)
+
+Exemplu:
+
+JSON
+
+{
+  "username": "gigi",
+  "admin": true,
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6..."
+}
+
+E ca un dicționar în Python – doar text, dar toată lumea îl înțelege.
+
+
+
+
+Cookie: 
+
+Cookie = bucățică de text pe care serverul ți-o dă și browserul o trimite înapoi automat 
+         la fiecare cerere.
+
+
+Exemplu tipic în CTF:
+
+textPHPSESSID=abc123def456
+is_admin=1
+auth_token=eyJhbGciOi...
+
+→ Dacă schimbi/modifici cookie-ul, poți deveni admin sau poți trece de login.
+
+
+
+
+Token(din cookie sau header):
+
+Token = cheie secretă (de obicei un șir lung și ciudat) care dovedește că ești logat / ai drepturi.
+
+Tipuri comune:
+
+1. JWT → începe cu eyJ (cel mai frecvent în CTF)
+2. Session token → random string
+3. Bearer token → îl pui în header: Authorization: Bearer tokenul_aici
+
+PE SCURT:
+
+curl = browser din terminal
+JSON = format de date
+Cookie = biletul tău de acces pe site
+Token = parola magică care zice „sunt admin / sunt logat”
+
+
