@@ -24,7 +24,8 @@ Rezolvare:
 
 1. vedem ca trebuie sa extragem datele intr-un format de tip .zip,
    folosind comanda: 
-                           unzip log-analysis1.zip
+                          
+                         unzip log-analysis1.zip
 
    Si ne extrage urmatoarele fisiere:
    
