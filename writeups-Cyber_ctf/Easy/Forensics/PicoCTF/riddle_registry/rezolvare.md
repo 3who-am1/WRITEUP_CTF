@@ -10,7 +10,8 @@ Avem doua indici:
 Rezolvare:
 
 1. folosim comanda: 
-                               strings confidential.pdf
+                            
+                           strings confidential.pdf
   
    Si ne afiseaza:
  
@@ -45,8 +46,10 @@ Nimic folositor din ceea ce vedem aici.
 
 
 2. folosim comanda:
+                        
                               exiftool confidential.pdf
-   Si ne afiseaza:
+   
+  Si ne afiseaza:
  
 ExifTool Version Number         : 13.25
 File Name                       : confidential.pdf
@@ -69,7 +72,9 @@ Author                          : cGljb0NURntwdXp6bDNkX20zdGFkYXRhX2YwdW5kIV9jOG
 Din ceea ce ne-a afisat aici vedem ceva la Author ca un cod ciudatel, ne gandim sa il decriptam
 
 3. folosim comanda:
-                               echo -n "cGljb0NURntwdXp6bDNkX20zdGFkYXRhX2YwdW5kIV9jOGY5MWQ2OH0=" | base64 -d
+               
+                echo -n "cGljb0NURntwdXp6bDNkX20zdGFkYXRhX2YwdW5kIV9jOGY5MWQ2OH0=" | base64 -d
+
    Si ne afiseaza:
 
 picoCTF{puzzl3d_m3tadata_f0und!_c8f91d68}
