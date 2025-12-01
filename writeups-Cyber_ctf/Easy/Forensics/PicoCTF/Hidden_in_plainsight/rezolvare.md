@@ -77,21 +77,22 @@ Si ne afiseaza:
 
                                         pAzzword
 
-    Ne gandim ce vrea sa ne spuna acel cod decodificat fiind spus cu "pAzzword".
-    Si ne dam seama ca trebuie sa extragem din imagine ceva, dar nu stim ce, tinand cont ca daca extragem ne va cere si parola,
-    iar parola ar fi aceea care l-am gasit "pAzzword", asa ca trebuie sa folosim unelte mai puternice de extragerea fisierelor din imagine.
+Ne gandim ce vrea sa ne spuna acel cod decodificat fiind spus cu "pAzzword".
+Si ne dam seama ca trebuie sa extragem din imagine ceva, dar nu stim ce, tinand cont ca daca extragem ne va cere si parola,
+iar parola ar fi aceea care l-am gasit "pAzzword", asa ca trebuie sa folosim unelte mai puternice de extragerea fisierelor din imagine.
  
 
 5. unealta pe care il putem folosi ar fi steghide.
  
                             steghide extract -sf img.jpg
 
-   Ne afiseaza:
+Ne afiseaza:
  
-  Introduceti parola: pAzzword                         ----> acolo introducem parola pe care l-am aflat
+  **Introduceti parola: pAzzword**                         ----> acolo introducem parola pe care l-am aflat
   
  Dupa ce dai enter, ne afiseaza asta:
-   scrie data extrasa la "flag.txt".
+                           
+                            scrie data extrasa la "flag.txt".
 
 Si acum avem fisierul flag.txt
 
@@ -100,19 +101,19 @@ Si acum avem fisierul flag.txt
 
 picoCTF{h1dd3n_1n_1m4g3_871ba55} ----> flag gasit
 
+---
 
-!!!! Bonus !!!!!
+##**!!!! Bonus !!!!!**
 
 
 steghide ascunde sau extrage fișiere din imagini/audio, folosind parametri precum -cf, -ef, -sf 
 pentru a specifica ce fișier acoperă, ce fișier e ascuns și de unde să extragi. 
 
-!!!! BONUS !!!!
-
+---
 
 
 flag: picoCTF{h1dd3n_1n_1m4g3_871ba55}
 
 
-Succes !!! :)))
+**Succes !!! :)))**
 
