@@ -123,6 +123,29 @@ Dar ceva se simte neregula, si este aproape ca si cum dezvoltatorul a lasat o ca
 
    Dupa rezultat vedem ca ne afiseaza si flag-ul ce dorit
 
+---
+#**EXPLICATIE LA COMENZILE PE CARE AM INTRODUS*
+
+                                                    curl -H "X-DEv-Access: yes"
+
+1. Aceasta comanda e luata de la cel care am decodificat acel mesaj in ROT13
+
+                                                    -X POST "http://amiable-citadel.picoctf.net:54439/login"
+
+2. La aceasta comanda cu -X, imrpeuna cu POST e luat dupa scriptul acela de mai sus, daca stati bine si il analizati. Si daca observati, spune si de *'/login"*
+   de aceea am introdus acolo in ghilimele cu acel domeniu *"/login"*
+
+                                                     -H "Content-Type: application/json"
+
+3. La asta cu -H "content ..", e tot luat de pe script-ul acela, si daca era altceva introdus acolo, asa trebuia luat si aici, nimic modificat, totul luat si gandit.
+
+                                                     -d '{"email":{"$ne":null},"password":{"$ne":null}}'
+
+4. Iar ultima si nu ce-l din urma, la aceasta comanda "-d '...'", trimite datele, la email dar si la parola, e un algoritm in spatele acelui cod introdus acolo, un caracter gresit, nu va poate rula pana la capat
+   {"$ne":null} ---> operator MongoDB care inseamna "diferit de null"
+
+
+----
 
 Flag : picoCTF{brut4_f0rc4_3e21b3a3}
 
