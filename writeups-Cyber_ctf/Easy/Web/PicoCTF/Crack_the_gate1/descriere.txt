@@ -1,0 +1,15 @@
+Descriere:
+
+Suntem în mijlocul unei anchete. Se crede că una dintre persoanele noastre de interes, ctf player, ascunde date sensibile în interiorul unui portal web restricționat. 
+Am descoperit adresa de e-mail pe care o folosește pentru a se conecta: ctf-player@picoctf.org. 
+Din păcate, nu știm parola, iar tehnicile obișnuite de ghicire nu au funcționat. 
+Dar ceva se simte în neregulă... este aproape ca și cum dezvoltatorul a lăsat o cale secretă. Poţi să-ţi dai seama?
+Detalii suplimentare vor fi disponibile după lansarea instanței dvs. de provocare.
+
+Sugestii 
+
+1. Dezvoltatorii lasă uneori note în cod; dar nu întotdeauna în text simplu.
+
+2. Un truc comun este să rotiți fiecare literă cu 13 poziții în alfabet.
+
+
