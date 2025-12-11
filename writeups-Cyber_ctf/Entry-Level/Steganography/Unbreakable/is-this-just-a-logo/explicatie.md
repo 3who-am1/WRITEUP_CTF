@@ -31,28 +31,13 @@ Vedem ca spune: Building a better workig world
 Ne afiseaza:
 
 
-ExifTool Version Number         : 13.25
-File Name                       : download.png
-Directory                       : .
-File Size                       : 32 kB
-File Modification Date/Time     : 2025:11:20 08:53:52+02:00
-File Access Date/Time           : 2025:11:20 08:54:06+02:00
-File Inode Change Date/Time     : 2025:11:20 08:54:06+02:00
-File Permissions                : -rw-r--r--
-File Type                       : PNG
-File Type Extension             : png
-MIME Type                       : image/png
-Image Width                     : 1000
-Image Height                    : 416
-Bit Depth                       : 8
-Color Type                      : RGB with Alpha
-Compression                     : Deflate/Inflate
-Filter                          : Adaptive
-Interlace                       : Noninterlaced
-SRGB Rendering                  : Perceptual
-Comment                         : Building a better workig world
-Image Size                      : 1000x416
-Megapixels                      : 0.416
+                            ExifTool Version Number         : 13.25
+                            File Name                       : download.png
+                            Interlace                       : Noninterlaced
+                            SRGB Rendering                  : Perceptual
+                            C omment                         : Building a better workig world
+                            Image Size                      : 1000x416
+                            M egapixels                      : 0.416
 
 
 
