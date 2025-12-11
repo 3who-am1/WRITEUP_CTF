@@ -7,7 +7,9 @@ Pasi pentru rezolvare:
    
 1.1  primul tool ar fi acesta  (strings), head ---> ne arata primele 10 lini la inceput:
 
-strings download.png | head
+                              strings download.png | head
+Ne afiseaza:
+
 IHDR
 sRGB
 'tEXtComment
@@ -25,7 +27,10 @@ Vedem ca spune: Building a better workig world
 2. Folosim un alt tool cel mai folosit este: exiftool 
    acest tool vedem cand a fost creat, dimensiunea imagini, structura si cateva indici si unde a fost localizat
     
-   exiftool download.png
+                                  exiftool download.png
+Ne afiseaza:
+
+
 ExifTool Version Number         : 13.25
 File Name                       : download.png
 Directory                       : .
@@ -55,3 +60,5 @@ Vedem la coment cu : Building a better working world
 
 
 Acesta este flag-ul gasit: Building a better workig world
+
+
