@@ -14,9 +14,11 @@ Explicatie:
 1. Accesam site-ul: *https://georgeom.net/StegOnline/image*
 
 2. Inseram imaginea si rulam la Red 5, vedem ca arata putin flag-ul dar pe final si aceea ar fi:
+
                                                            19d894dda0c8a7} ---> e doar o parte din flag (4)
 
 3. Daca ne uitam la imagine normala vedem la inceput flag-ul:
+
                                                            ctf{335769a99feec ---> e doar o parte din flag (1)
 
    Vedem ca mai departe e totul neclar, asa trebuie sa apelam la niste tool-uri avansate:
