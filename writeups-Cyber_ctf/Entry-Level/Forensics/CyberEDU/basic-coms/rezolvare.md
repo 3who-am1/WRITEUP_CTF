@@ -8,7 +8,7 @@ Rezolvare:
    
    Observam ca ne trimite direct prin **wireshark** si ar trebui sa ne uitam prin acele pachete multe
 
-<p align="center"><img src="imagini/wireshark.png" width="250px" height="250px" alt="insta logo"></p>
+<p align="center"><img src="imagini/wireshark.png" width="1796px" height="1039px" alt="insta logo"></p>
 
 
 2. inainte de a vizualiza prin pachete, am folosit comanda:
