@@ -41,11 +41,22 @@ Rezolvare:
 
 ```REZUMAT PENTRU HEXDUMPS
 
-Hexdumps sunt adesea folosite atunci când vrem să ne uităm la date care nu pot fi reprezentate în șiruri și, prin urmare, nu pot fi citite, așa că este mai ușor să ne uităm la valorile hex. Un hexdump are trei coloane principale. Prima arată adresa, a doua reprezentarea hexadecimală a datelor pe acea adresă și ultima arată datele reale ca șiruri (cu ‘.’ fiind valori hexadecimale care nu pot fi reprezentate ca șir). Există multe editori hexagonali, alegeți-l pe cel care vă place cel mai mult.
+Hexdumps sunt adesea folosite atunci când vrem să ne uităm la date care nu pot fi 
+reprezentate în șiruri și, prin urmare, nu pot fi citite, 
+așa că este mai ușor să ne uităm la valorile hex. Un hexdump are trei coloane principale. 
+Prima arată adresa, a doua reprezentarea hexadecimală a datelor pe acea adresă și ultima arată 
+datele reale ca șiruri (cu ‘.’ fiind valori hexadecimale care nu pot fi reprezentate ca șir). 
+Există multe editori hexagonali, alegeți-l pe cel care vă place cel mai mult.
 
-Pentru linia de comandă xxd poate fi folosit. xxd <input_file> <output_file> creează hexdumps. Când utilizați -r flag, întoarce hexdump-ul.
+Pentru linia de comandă xxd poate fi folosit.
+xxd <input_file> <output_file> creează hexdumps. 
+Când utilizați -r flag, întoarce hexdump-ul.
 
-Hexdumps poate fi folosit pentru a afla tipul unui fișier. Fiecare tip de fișier are un număr magic/semnătură fișier. Poti gasi liste cu o colecție a acestor semnături diferite de fișiere online. Acest lucru este deosebit de important de știut, deoarece uneori fișierele ar putea să nu aibă finalul corect sau orice fișier pentru a identifica tipul acestuia.
+Hexdumps poate fi folosit pentru a afla tipul unui fișier. 
+Fiecare tip de fișier are un număr magic/semnătură fișier. Poti gasi liste cu o colecție a 
+acestor semnături diferite de fișiere online. 
+Acest lucru este deosebit de important de știut, deoarece uneori fișierele ar 
+putea să nu aibă finalul corect sau orice fișier pentru a identifica tipul acestuia.
 
 
 ```
