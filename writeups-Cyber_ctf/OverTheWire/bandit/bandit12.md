@@ -285,7 +285,7 @@ incet incet, puteti invata de toate
 ---
 Felicitari, ai rezolvat acest challenge
 
-Mentionez faptul ca cu aceasta parola ne putem loga la bandit12
+Mentionez faptul ca cu aceasta parola ne putem loga la bandit13
 ----
 SUCCES mai departe :)))
 
