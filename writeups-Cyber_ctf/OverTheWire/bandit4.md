@@ -48,7 +48,7 @@ Vedem ca avem multe fisiere de la *00* pana la *09*
 !!BONUS!!
 
 1. *strings*  ---> afiseaza toate mesajele aflate, chiar si cele binare
-2. ***        ---> sunt pentru toate fisierele
+2. *          ---> sunt pentru toate fisierele
 3. */*        ---> este directorul aflat cu mai multe fisiere.
 
 
