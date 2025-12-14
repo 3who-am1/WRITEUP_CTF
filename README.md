@@ -66,13 +66,43 @@ Acest repo documentează progresul meu în:
 - Studii practice pe Web, Network, Cryptography
 - Tooluri și explicații pentru fiecare challenge
 
-```text
-Easy/
-Entry-Level/
-    Cryptography/
-    Forensics/
-    Misc/
-    Reverse_Engineering/
-    Steganography/
-    Web/
+...
+writeups-Cyber_ctf
+├── Easy
+    ├── Forensics
+    │   ├── CyberEDU
+    │   │   └── i-got-a-virus
+    │   │       ├── descriere.txt
+    │   │       ├── imagini
+    │   │       │   ├── creatia-fisierului.png
+    │   │       │   ├── ip-rauintentionat.png
+    │   │       │   └── VirusTotalFamily.png
+    │   │       ├── rezolvare.md
+    │   │       └── teorema.txt
+    │   ├── PicoCTF
+    │   │   ├── Hidden_in_plainsight
+    │   │   │   ├── descriere.txt
+    │   │   │   ├── flag.txt
+    │   │   │   ├── img.jpg
+    │   │   │   ├── rezolvare.md
+    │   │   │   └── steghide.md
+    │   │   ├── RED
+    │   │   │   ├── descriere.txt
+    │   │   │   ├── explicatie.md
+    │   │   │   ├── flag.txt
+    │   │   │   └── Zsteg.md
+    │   │   └── riddle_registry
+    │   │       ├── confidential.pdf
+    │   │       ├── descriere.txt
+    │   │       ├── flag.txt
+    │   │       └── rezolvare.md
+    │   └── Unbreakable
+            └── log-analysis1
+    │            ├── definitie.txt
+    │            ├── descriere.txt
+    │            ├── imagini
+    │            │   ├── cod4798.png
+    │            │   ├── gigasheet.png
+    │            │   └── mitreattack.png
+    │            └── rezolvare.md
 ...
