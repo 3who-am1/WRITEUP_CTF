@@ -116,12 +116,11 @@ Si ne afiseaza:
 
 `drwxr-xr-x` se citește în 3 grupuri:
 
-d rwx r-x r-x
-│  │   │   │
-│  │   │   └─ Others (ceilalți): pot citi (r) și intra/executa (x)
-│  │   └─── Group (grupul): pot citi (r) și intra/executa (x)  
-│  └─────── Owner (proprietarul): poate citi (r), scrie (w), intra/executa (x)
-└────────── Directory (folder)
+r-x ─── Group (grupul): pot citi (r) și intra/executa (x)  
+
+rwx ─────── Owner (proprietarul): poate citi (r), scrie (w), intra/executa (x)
+
+d ────────── Directory (folder)
 ---
 
 Felicitari ai rezolvat acest cahllenge
