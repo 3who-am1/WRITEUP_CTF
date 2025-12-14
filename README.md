@@ -66,7 +66,7 @@ Acest repo documentează progresul meu în:
 - Studii practice pe Web, Network, Cryptography
 - Tooluri și explicații pentru fiecare challenge
 
-...
+'''text'''
 writeups-Cyber_ctf
 ├── Easy
     ├── Forensics
