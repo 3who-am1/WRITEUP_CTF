@@ -21,12 +21,13 @@ Dupa ce avem aceste informati folosim comanda aceasta:
 ---
 Explicatie: 
 
-*bandit0* este numele de utilizator. 
-*@* separator intre user si host(bandit.labs.overthewire.org) 
-*bandit.labs.overthewire* adresa serverului, adica host
-*-p* este specificarea portului.
-*2220* acesta e portul
-Si parola pentru *bandit0* este *bandit0*.
+1. *bandit0* este numele de utilizator. 
+2. *@* separator intre user si host(bandit.labs.overthewire.org) 
+3. *bandit.labs.overthewire* adresa serverului, adica host
+4. *-p* este specificarea portului.
+5. *2220* acesta e portul
+6. Si parola pentru *bandit0* este *bandit0*.
+
 ---
 
 
