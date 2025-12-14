@@ -56,7 +56,7 @@ Trebuie sa exploram, sa putem gasi.
 
   Si ne afiseaza: 
 
--rw-r-----  1 root bandit5 1033 Oct 14 09:26 .file2
+                       -rw-r-----  1 root bandit5 1033 Oct 14 09:26 .file2
 
 
 Dupa ce ca am aflat, dar nu vedem in ce director se afla, putem
