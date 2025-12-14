@@ -19,7 +19,7 @@ Rezolvare:
 
   Si vedem ca ne afiseaza:
 
-<p align="center"><img src="3who-am1/writeups-Cyber_ctf/OverTheWire/imagini/llcomanda1.png" width="50%"/></p>
+<p align="center"><img src="/writeups-Cyber_ctf/OverTheWire/imagini/llcomanda1.png" width="50%"/></p>
 
 
 Sa putem afla ce se afla in acel fisier *-*, e sa folosim comanda *strings* sau *cat*
