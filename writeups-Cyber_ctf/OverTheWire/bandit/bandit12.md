@@ -39,7 +39,8 @@ Rezolvare:
   Vedem ca avem siruri de hex-uri.
 
 
-```REZUMAT PENTRU HEXDUMPS
+```
+REZUMAT PENTRU HEXDUMPS
 
 Hexdumps sunt adesea folosite atunci când vrem să ne uităm la date care nu pot fi 
 reprezentate în șiruri și, prin urmare, nu pot fi citite, 
