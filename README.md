@@ -105,4 +105,4 @@ writeups-Cyber_ctf
     │            │   ├── gigasheet.png
     │            │   └── mitreattack.png
     │            └── rezolvare.md
-...
+`text`
