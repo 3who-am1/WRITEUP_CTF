@@ -35,7 +35,8 @@ Poate va intrebati de ce nu am folosit direct:
 
                                strings -
 
-E ca ne afiseaza toate optiunile cum sa folosim comanda *strings*, si nu ne afisa raspuns-ul dat
+E ca ne afiseaza toate optiunile cum sa folosim comanda *strings*, si nu ne afisa raspuns-ul dat.
+
 Iar la *cat* e ca se asteapta sau ruleaza in gol, fara sa ne de-a un raspuns
 
 Iar ca am scris comanda:
