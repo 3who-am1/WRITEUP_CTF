@@ -37,7 +37,7 @@ Rezolvare:
 
    Si ne afiseaza asta:
 
-<p align="center"><img src="/writeups-Cyber_ctf/OverTheWire/imagini/stringscomanda9.2.png" width="50%"/></p>
+<p align="center"><img src="/writeups-Cyber_ctf/OverTheWire/imagini/stringscomanda9.2.png" hight="50%"/></p>
 
 
   multe caractere dar putem sa le citim, enuntul problemei ne spune ca e ceva legat de asta `==` 
