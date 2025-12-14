@@ -93,18 +93,24 @@ Si ne afiseaza:
 !!EXPLICATIE LA FIECARE COMANDA
 
 1. `ll inhere/* | grep 1033`
+  
    - `grep 1033` → caută textul "1033" în output
+  
    - `inhere/*` → asteriscul (`*`) se înlocuiește cu TOATE numele din folderul `inhere`
 
 2. `ll inhere/*/.file2`  
+  
    - Caută să afișeze fișierul `.file2` din FIECARE folder din `inhere/`
+  
    - Va arăta doar acolo unde fișierul există
 
 3. `ll inhere/*/.file2 | grep 1033`
+  
    - Combină cele două: mai întâi listează toate fișierele `.file2`, apoi filtrează doar pe cele cu dimensiunea 1033
 
 4. `strings inhere/maybehere07/.file2`
-   - `strings` → extrage și afișează doar textul "citibil" dintr-un fișier
+  
+    - `strings` → extrage și afișează doar textul "citibil" dintr-un fișier
 
 !!EXPLICATIE LA PERMISIUNI
 
