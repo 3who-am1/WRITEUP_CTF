@@ -1,5 +1,5 @@
-Dupa ce am rezolvat la *bandit1* si am obtinut parola, putem conecta la *bandit2*
-parola pentru *bandit2* puteti gasi la *bandit1*
+Dupa ce am rezolvat la *bandit1* si am obtinut parola, putem conecta la *bandit2*.
+Parola pentru *bandit2* puteti gasi la *bandit1*
 
 Rezolvare:
 
