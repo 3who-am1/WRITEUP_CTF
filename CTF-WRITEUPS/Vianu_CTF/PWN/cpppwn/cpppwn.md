@@ -159,7 +159,7 @@ Acum ca stim unde este string-ul, cautam ce cod foloseste aceasta adresa *402008
 
 si observam ca sa gasit, ceea ce se vede cu rosu la aceea imagine de mai jos:
 
-<p align="center"><img src="imagini/objdump.png" width="50%"/></p>
+<p align="center"><img src="imagini/objdump.png" width="100%"/></p>
 
 Intelegere:
 
@@ -170,7 +170,7 @@ Gasim inceputul functiei **win()**:
 
 uitandu-ne mai jos in codul dezassemblat:
 
-<p align="center"><img src="imagini/objdump1.png" width="50%"/></p>
+<p align="center"><img src="imagini/objdump1.png" width="100%"/></p>
 
 Functia **win()** incepe la adresa **0x4011b9**!
 
