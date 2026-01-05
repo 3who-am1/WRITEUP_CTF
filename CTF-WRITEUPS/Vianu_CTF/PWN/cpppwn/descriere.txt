@@ -1,0 +1,14 @@
+TITLU: cpppwn
+
+Points: 330
+
+Creator: Iacob Razvan Mihai
+
+https://www.pbinfo.ro/articole/19/siruri-de-caractere-in-cpp
+
+Note: This challenge was showcased in the first Vianu Hack Club 25 meeting.
+
+nc dpl.razvan.sh 30002
+Unlock Hint for 0 points
+
+lookup ret2win
