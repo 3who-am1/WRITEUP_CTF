@@ -1,0 +1,6 @@
+Fișiere Schrodinger
+Descriere:
+Ceva ciudat se întâmplă cu noul sistem de fişiere. Se pare că stochează fișiere într-un mod ciudat, trebuie să găsesc o modalitate de a citi fișierele administratorului.
+
+Fișiere
+challenge.py
