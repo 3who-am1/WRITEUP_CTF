@@ -455,7 +455,7 @@ if __name__ == "__main__":
    Dupa ce ne-am inregistrat, putem sa ne conectam la numele nostru creat, adica aa, si parola tot cu aa.
    Apoi ce am facut toate treburile acestea, observam ca ne afiseaza asta:
 
-                                                  Register User
+                                                  1. Register User
                                                   Login
                                                   Exit
                                                   Choose an option: 2
