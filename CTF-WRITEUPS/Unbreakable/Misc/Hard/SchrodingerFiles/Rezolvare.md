@@ -503,4 +503,6 @@ De ce am introdus prima data un pid aleatorie si nu pe cel al nostru?
 7. Se citește conținutul din `/proc/48/fd/6`
 
 
+## Concluzie
 
+Challenge-ul demonstrează pericolul race condition-urilor în aplicațiile multi-threaded și importanța gestionării corecte a stării partajate între thread-uri. Vulnerabilitatea a fost exploatată prin manipularea timing-ului executării thread-urilor pentru a ocoli mecanismul de verificare a permisiunilor.
