@@ -1,0 +1,8 @@
+rgb
+Descriere:
+
+Hue a adunat pixelii acestei imagini și a ascuns ceva în ea.
+
+Formatul steagului: sha256.
+
+Confirmarea steagului CTF{sha256}.
