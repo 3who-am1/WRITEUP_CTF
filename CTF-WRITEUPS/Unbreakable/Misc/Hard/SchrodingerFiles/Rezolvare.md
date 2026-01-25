@@ -446,9 +446,9 @@ if __name__ == "__main__":
    Si observam ca ne afiseaza asta:
 
                                                CLI Dropbox - Schrödinger's Edition
-                                                  Register User
-                                                  Login
-                                                  Exit
+                                                  1. Register User
+                                                  2. Login
+                                                  3. Exit
                                                Choose an option:
 
 3. Dupa cum putem vedea e sa alegem optiunile de acolo, alegem numarul 1, la username: aa, si password: aa, dupa ne-am inregistrat.
@@ -456,17 +456,17 @@ if __name__ == "__main__":
    Apoi ce am facut toate treburile acestea, observam ca ne afiseaza asta:
 
                                                   1. Register User
-                                                  Login
-                                                  Exit
+                                                  2. Login
+                                                  3. Exit
                                                   Choose an option: 2
                                                   Enter username: aa 
                                                   Enter password: aa
                                                   Login successful!
 
-                                                  Upload File
-                                                  List Files
-                                                  Retrieve File
-                                                  Logout
+                                                  1. Upload File
+                                                  2. List Files
+                                                  3. Retrieve File
+                                                  4. Logout
 
 4. Ce vedem ca am reusit sa ne logam, ca ne afiseaza acel mesaj "Login successful", vedem ca avem acele 4 optiuni, alegem optiunea List Files adica pe 2, 
    vedem ca ne afiseaza un PID al fisierului flag.txt, pid-ul ar fi orice numar generat, ex 48, 1307, 1170, etc...
