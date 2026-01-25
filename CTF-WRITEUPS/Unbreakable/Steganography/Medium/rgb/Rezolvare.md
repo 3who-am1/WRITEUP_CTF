@@ -58,5 +58,5 @@ Bingo, ai reusit!!!
 
 Asta e tot hexahue pe care trebuie sa decifrezi:
 
-<p align="center"><img src="imagini/hexahue.png" width="100%"/></p>
+<p align="center"><img src="imagini/hexahue.png" width="300%"/></p>
 
