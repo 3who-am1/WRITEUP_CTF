@@ -433,7 +433,7 @@ def main():
 if __name__ == "__main__":
     main()
 
-python```
+```
 
 
 2. Pasul doi, dupa ce am verificat codul si explicat ce face fiecare linie de cod, acum e sa rulam serverul si sa incepem de a ne loga prima data,
