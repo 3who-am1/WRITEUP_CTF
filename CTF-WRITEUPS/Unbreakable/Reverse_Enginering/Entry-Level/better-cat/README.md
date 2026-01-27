@@ -1,6 +1,20 @@
+# better-cat - UNbreakable | Reverse_Enginering | Entry-Level | Writeup
+
+**DESCRIEREA CERINTEI:**
+
+S-ar putea sa fie nevoie sa cauti o anumita parola.
+
+Format steag: ctf{sha256}
+
+Scop: În această provocare trebuie să obțineți șirul de parolă sau steagul din fișierul binar.
+
+Provocarea a fost creată de Bit Sentinel.
+
+## INTELEGEREA CERINTEI:
+
 In aceaasta problema trebuie sa aflam o parola din acest fisier binar executabil
 
-Rezolvare:
+### REZOLVARE:
 
 1. introducem comanda: 
 
@@ -17,7 +31,7 @@ Observam ca avem aceste permisiuni:
  
                                            cat.elf -rw-r--r--
 
-##explicatie scurta:  
+## explicatie scurta:  
 
                                            r ---> citire
                                            w ---> scriere
@@ -70,6 +84,7 @@ Vedem ca trebuie sa introducem o parola, dar nu o stim, suntem nevoiti sa facem 
 
 Nu prea ne ajuta, asa ca folosim iar *strings* dar fara head.
 
+```text
 =9 parola12 Well donH e, your H special H flag is:H ctf{a81H 8778ec7aH 9fc19887H 24ae3700H b
 42e998eH b09450eaH b7f1236eH 53bfdcd9H 23878} d
 H34%( AWAVI AUATL []A\A]A^A_ 
@@ -78,7 +93,7 @@ https://www.youtube.com/watch?v=oHg5SJYRHA0 The password is:
 Try Harder!
 ;*3$"
 GCC: (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0 crtstuff.c
-
+```
 
 dupa cum putem vedea e ca de aici avem si parola dar si flag-ul cel dorit.
 
