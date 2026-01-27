@@ -1,6 +1,22 @@
+# basic-coms - CyberEDU | Forensics | Entry-Level | Writeup
+
+**DESCRIEREA EXERCITIULUI:**
+
+Caută-l și vei găsi steagul.
+
+Format steag: CTF{sha256}
+
+Provocarea a fost propusă de BIT SENTINEL.
+
+**Intelegerea cerintei:**
+
 Enuntul ne spune **Cauta si vei gasi steagul**, pai atunci hai sa-l cautam
 
-Rezolvare:
+**Cerintele Problemei:**
+
+Ce este steagul?
+
+### Rezolvare:
 
 1. prima data sa descarcam acel fisier si sa vizualizam prin comanda:
 
