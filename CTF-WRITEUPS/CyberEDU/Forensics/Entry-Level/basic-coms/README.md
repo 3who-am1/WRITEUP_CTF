@@ -46,7 +46,7 @@ Ce este steagul?
  
                                      basic-coms.pcapng: pcapng capture file - version 1.0
 
-  Obsevram ca e versiune de 1.0, veche
+  Observam ca e versiune de 1.0, veche
 
 
   Dar si cu comanda:
@@ -73,7 +73,9 @@ Ce este steagul?
 
 <p align="center"><img src="imagini/http.png" width="1796px" height="1039px" alt=" "></p>
   
-  Asta e flag-ul:  GET /?important=The%20content%20of%20the%20f%20l%20a%20g%20is%20ca314be22457497e81a08fc3bfdbdcd3e0e443c41b5ce9802517b2161aa5e993%20and%20respects%20the%20format HTTP/1.1
+  Asta e flag-ul:  
+ 
+                                    GET /?important=The%20content%20of%20the%20f%20l%20a%20g%20is%20ca314be22457497e81a08fc3bfdbdcd3e0e443c41b5ce9802517b2161aa5e993%20and%20respects%20the%20format HTTP/1.1
 
 <p align="center"><img src="imagini/StreamHTTP.png" width="922px" height="732px" alt=" "></p>
 
