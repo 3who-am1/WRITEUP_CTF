@@ -34,6 +34,9 @@ Ne afiseaza:
         4c1dc737915d76b7ce579abddaba74ead6fdb5b519a1ea45308b8c49b950655c  malware-sample
 ---
 
+<p align="center"><img src="imagini/creatia-fisierului.png" width="50%"/></p>
+
+
 **!!! ATENTIE !!!**
 
  Comanda 1: (echo -n "malware-sample" | sha256sum) calculeaza hash pentru text
@@ -76,12 +79,19 @@ Ne afiseaza:
    
         2016-01-30 02:56:43 UTC ---> raspuns la intrebarea Q4
 
+
+<p align="center"><img src="imagini/VirusTotalFamily.png" width="50%"/></p>
+
+
 5. La ultima intrebare ne spune ca, care ar fi ip-ul rau intentionat care a fost marcat ca rau intentionat utilizat de esantiorul de malware
    Sa putem afla ip-ul acela, ar trebui sa analizam tot pe **VirusTotal** la **Relations**
    si mai jos la **Contacted IP addresses** vedem ca is vreo 45 de ip-uri, dar cel mai relevant raspuns ar fi prima optiune intotdeauna de luat
    iar acela ar fi: 13.107.4.53
 
         13.107.4.53 ---> raspuns la intrebarea Q5
+
+<p align="center"><img src="imagini/ip-rauintentionat.png" width="50%"/></p>
+
 ---
 ### SUCCES !!!! :))))
 ---
@@ -102,8 +112,5 @@ Q4. Data creari a fisierului rau intetionat este:
 
 Q5. Ip-ul rau intentionat este:
          13.107.4.53
-
-
-
 
   
