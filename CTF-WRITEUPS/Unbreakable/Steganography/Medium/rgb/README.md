@@ -1,3 +1,15 @@
+# rgb - UNbreakable | Steganography | Medium | Writeup
+
+**DESCRIEREA CERINTEI:**
+
+Hue a adunat pixelii acestei imagini și a ascuns ceva în ea.
+
+Formatul steagului: sha256.
+
+Confirmarea steagului CTF{sha256}.
+
+### REZOLVARE:
+
 Salut, astazi vom rezolva RGB, enuntul ne spune in felul urmator:
 
 Hue a adunat acesti pixeli intr-o imagine ascuna in ea
@@ -53,7 +65,7 @@ Cum ati vazut in imagine asa este in 6 total cate un patrat, 2*3 = 6
 Bingo, ai reusit!!!
 
 -----
-###Bonus
+### Bonus
 -----
 
 Asta e tot hexahue pe care trebuie sa decifrezi:
