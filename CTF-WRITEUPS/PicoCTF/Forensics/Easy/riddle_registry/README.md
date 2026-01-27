@@ -1,12 +1,21 @@
-Dupa cum observam avem un PDF prin care ar trebui sa facem niste analize prin el.
-Tot ce ar trebui sa stim e sa gasim un steag ascuns, mai precis un flag format picoCTF{...[redacted]....}
+# Riddle Registry - PicoCTF | Forensics | Easy | Writeup
 
-Avem doua indici:
+**DESCRIEREA EXERCITIULUI:**
+
+Bună, anchetator îndrăzneț! 📄🔍 Ai dat peste un PDF ciudat plin cu ceea ce nu pare altceva decât o prostie confuză. Dar atenție! 
+Nu totul este așa cum apare. În mijlocul haosului se află un steag evaziv de comori ascuns care așteaptă să fie descoperit.
+Găsiți fișierul PDF aici Document confidențial ascuns și descoperiți steagul în metadate.
+
+**SUGESTII:**
 
 1. Nu te lăsa păcălit de textul vizibil; este doar o momeală!
 
 2. Caută dincolo de suprafață indicii ascunse
 
+## INTELEGEREA CERINTEI:
+
+Dupa cum observam avem un PDF prin care ar trebui sa facem niste analize prin el.
+Tot ce ar trebui sa stim e sa gasim un steag ascuns, mai precis un flag format picoCTF{...[redacted]....}
 
 **Rezolvare:**
 
