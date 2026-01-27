@@ -1,8 +1,18 @@
+# Bandit Level 11 → Level 12 | bandit11 | Writeup
+
+**DESCRIEREA EXERCITIULUI:**
+
+Parola pentru nivelul următor este stocată în fișier data.txt, unde au fost toate literele mici (az) și majuscule (AZ) rotit cu 13 poziții
+
+## Comenzi care poate fi necesar pentru a rezolva acest nivel:
+
+    grep, sort, uniq, strings, base64, tr, tar, gzip, bzip2, xxd
+
+### REZOLVARE:
+
 Dupa ce am rezolvat la bandit10 si am obtinut parola, putem sa ne conectam la bandit11
 
 Parola pentru bandit11 il puteti gasi la bandit10.
-
-Rezolvare:
 
 1. Sa ne conectam la bandit11, folosim aceasta comanda:
 

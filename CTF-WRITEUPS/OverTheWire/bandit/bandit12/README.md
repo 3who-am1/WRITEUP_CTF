@@ -1,8 +1,18 @@
+# Bandit Level 12 → Level 13 | bandit12 | Writeup
+
+Parola pentru nivelul următor este stocată în fișier data.txt, care este un hexdump al unui fișier care a fost comprimat în mod repetat. 
+Pentru acest nivel poate fi util să creați un director sub /tmp în pe care le puteți lucra. Utilizați mkdir cu un nume de director greu de ghicit. 
+Sau mai bine, folosește comanda “mktemp -d”. Apoi copiați fișierul de date folosind cp și redenumiți-l folosind mv (citiți manpages!)
+
+## Comenzi care poate fi necesar pentru a rezolva acest nivel:
+
+    grep, sort, uniq, strings, base64, tr, tar, gzip, bzip2, xxd, mkdir, cp, mv, file
+
+### REZOLVARE:
+
 Dupa ce am rezolvat la bandit11 si am obtinut parola, putem sa ne conectam la bandit12
 
 Parola pentru bandit12 il puteti gasi la bandit11.
-
-Rezolvare:
 
 1. Sa ne conectam la bandit12, folosim aceasta comanda:
 
