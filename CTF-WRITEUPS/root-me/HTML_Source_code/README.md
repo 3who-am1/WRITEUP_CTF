@@ -1,6 +1,14 @@
+# HTML_Source_code - ROOT-ME | Easy | Writeup
+
+**DESCRIEREA CERINTEI:**
+
+Nu cauta prea departe
+
+## INTELEGEREA CERINTEI: 
+
 Problema ne spune ca, nu cauta prea departe
 
-Rezolvare:
+### RZOLVARE:
 
 1. Prima data e sa incepem provocarea, ne duce pe un site numit:
          http://challenge01.root-me.org/web-serveur/ch1/
@@ -15,7 +23,9 @@ Rezolvare:
    si acele comentari sunt pe limba franceza
 
    Observam ca mai jos dar vizibil, fix in ochilor nostri ne arata parola.
-   
+
+<p align="center"><img src="imagini/v000001.png" width="100%"/></p>
+
 
 4. parola ar fi:
 
