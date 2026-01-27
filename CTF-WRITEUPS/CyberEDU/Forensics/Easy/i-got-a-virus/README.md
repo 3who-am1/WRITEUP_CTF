@@ -113,8 +113,9 @@ Q4. Data creari a fisierului rau intetionat este:
 Q5. Ip-ul rau intentionat este:
          13.107.4.53
 
-  
-###putina TEOREMA:
+---  
+###TEOREMA:
+
 ```text
 Totul despre Malware - Simplu și Scurt 🎯
 
