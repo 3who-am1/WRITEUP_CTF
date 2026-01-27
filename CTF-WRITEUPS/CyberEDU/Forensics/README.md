@@ -39,20 +39,19 @@ Forensics
     │       └── README.md
     ├── Entry-Level
     │   └── basic-coms
-    │       ├── descriere.txt
     │       ├── imagini
     │       │   ├── Detail.png
     │       │   ├── Hex.png
     │       │   ├── http.png
     │       │   ├── StreamHTTP.png
     │       │   └── wireshark.png
-    │       └── rezolvare.md
-    └── Medium
-        └── forensics-disk
-            ├── descriere.txt
-            ├── flag.txt
-            ├── forensics-disk.zip
-            └── rezolvare.txt
+    │       └── README.md
+    ├── Medium
+    │   └── forensics-disk
+    │       ├── flag.txt
+    │       └── README.md
+    └── README.md
+
 ```
 
 ### De ce această structură
