@@ -1,8 +1,8 @@
-# Bandit Level 1 → Level 2 | bandit2 | Writeup
+# Bandit Level 2 → Level 3 | bandit2 | Writeup
 
 **DESCRIEREA EXERCITIULUI:**
 
-Parola pentru nivelul următor este stocată într-un fișier numit - situat în directorul de acasă
+Parola pentru nivelul următor este stocată într-un fișier numit --spaces in this filename-- situat în directorul de acasă
 
 ## Comenzi care poate fi necesar pentru a rezolva acest nivel:
 

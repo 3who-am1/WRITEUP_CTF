@@ -2,9 +2,7 @@
 
 **DESCRIEREA EXERCITIULUI:**
 
-Parola pentru nivelul următor este stocată într-un fișier numit citește-mă situat în directorul de acasă. 
-Utilizați această parolă pentru a vă înregistra în bandit1 folosind SSH. Ori de câte ori găsiți o parolă 
-pentru un nivel, utilizați SSH (pe portul 2220) pentru a vă conecta la acel nivel și a continua jocul.
+Parola pentru nivelul următor este stocată într-un fișier numit - situat în directorul de acasă
 
 ## Comenzi care poate fi necesar pentru a rezolva acest nivel:
 

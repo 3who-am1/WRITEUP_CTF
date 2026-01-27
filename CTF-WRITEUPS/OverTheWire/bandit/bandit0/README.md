@@ -2,10 +2,9 @@
 
 **DESCRIEREA EXERCITIULUI:**
 
-Scopul acestui nivel este ca tu să te loghezi în joc folosind SSH. 
-Gazda la care trebuie să vă conectați este bandit.labs.overthewire.org, pe portul 2220. 
-Numele de utilizator este bandit0 iar parola este bandit0. 
-Odată autentificat, accesați Nivelul 1 pagina pentru a afla cum să bată Level 1.
+Parola pentru nivelul următor este stocată într-un fișier numit citește-mă situat în directorul de acasă. 
+Utilizați această parolă pentru a vă înregistra în bandit1 folosind SSH. 
+Ori de câte ori găsiți o parolă pentru un nivel, utilizați SSH (pe portul 2220) pentru a vă conecta la acel nivel și a continua jocul.
 
 ## Comenzi care poate fi necesar pentru a rezolva acest nivel:
 
