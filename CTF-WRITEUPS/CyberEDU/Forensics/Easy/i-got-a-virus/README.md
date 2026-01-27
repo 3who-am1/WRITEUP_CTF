@@ -114,3 +114,77 @@ Q5. Ip-ul rau intentionat este:
          13.107.4.53
 
   
+###putina TEOREMA:
+```text
+Totul despre Malware - Simplu și Scurt 🎯
+
+🌐 IP Rău:
+
+Ce e? 
+
+1. O adresă de internet care face rele
+2. Ca o casă care:
+• Trimite virusi (ca poștă cu cadouri otrăvite)
+• Fură parole (ca un hoț)
+• Atacă alte computere
+
+🔑 SHA256 - Amprenta Digitală:
+
+Ce e? 
+
+1. Un cod unic pentru ORICE fișier
+2. Exact ca: 
+  Amprentele degetelor umane
+• Fiecare fișier are codul său unic
+• Codul se schimbă dacă fișierul se schimbă
+• Folosit să identificăm malware
+
+⚠️ Echo vs Fără Echo:
+
+GREȘIT:
+
+echo "virus.exe" → calculează amprenta pentru CUVINTELE "virus.exe"
+
+CORECT:
+
+sha256sum virus.exe → calculează amprenta pentru FIȘIERUL virus.exe
+
+De ce? 
+
+Fișierul are 1.000.000 de litere (cod), nu doar 9 litere (nume)
+
+🦠 Trojan - Trișorul:
+
+Ce e? 
+
+Un program care MINTE
+Spune: "Sunt un joc/joc video util!"
+Face: Îți fură datele, strică computerul
+
+🏷️ Numele Malware
+3 tipuri de nume:
+
+Familie = Numele de familie:
+Emotet (ca "Popescu")
+
+Categorie = Meseria lui:
+Trojan (ca "hoț")
+
+Pretty Name = Numele complet:
+Trojan:Win32/Emotet.A!ml (ca "Ion Popescu - Hoț profesionist")
+
+🎯 Regula de Aur
+Vrei să identifici un fișier? → Folosește sha256sum numefisier.exe
+Vrei să verifici pe VirusTotal? → Copiază codul SHA256 și caută-l
+
+VirusTotal = Poliția digitală
+• Arată toate faptele rele ale fișierului
+• Spune cine sunt prietenii lui (IP-uri rele)
+• Îl pune la dosar cu numele corect
+
+TLDR: SHA256 e amprenta, VirusTotal e poliția, Trojan e mincinosul! 🚨
+
+
+!!! Generat de AI!!!
+```
+
