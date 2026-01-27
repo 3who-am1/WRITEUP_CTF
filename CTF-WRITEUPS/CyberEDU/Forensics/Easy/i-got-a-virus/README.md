@@ -1,6 +1,4 @@
-### TITLUL PROBLEMEI:
-
-i-got-a-virus
+### i-got-a-virus -CyberEDU Forensics Writeup
 
 ### DESCRIEREA EXERCITIULUI:
 
