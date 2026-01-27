@@ -52,10 +52,12 @@ Ne afiseaza:
 
 **!!! ATENTIE !!!**
 
- Comanda 1: (echo -n "malware-sample" | sha256sum) calculeaza hash pentru text
+ Comanda 1: (echo -n "malware-sample" | sha256sum) calculeaza hash pentru text.
+
  Comanda 2: (sha256sum "malware-sample") calculeaza hash pentru fisier
  
  EXEMPLU:
+
  Comanda 1:
 
               echo -n "malware-sample" | sha256sum
@@ -71,9 +73,13 @@ Ne afiseaza:
 ---
 
 2. La a doua intrebare ne spune care este numele familiei malware?
+
    Sa cunoastem familia malware e sa analizam fisierul de pe site-ul metionat, **VirusTotal.com**.
+
    Accesam site-ul, acolo la file, apasam pe optiunea "Choose file" si inseram **Malwere-sample**.
+
    Dupa ce am inserat, observam ca ne apare acolo pe "Popular threat label" si in dreapta vedem "Family labels".
+
    Si acolo ne spune ca sunt **petya**, **petr** si **diskcoder**, asa ca il lu-am pe prima varianta si acela ar fi raspuns-ul: petya
 
           Petya ---> raspuns la intrebarea Q2
