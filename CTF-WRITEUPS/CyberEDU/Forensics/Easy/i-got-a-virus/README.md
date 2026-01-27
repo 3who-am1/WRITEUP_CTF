@@ -1,3 +1,14 @@
+### TITLUL PROBLEMEI:
+
+i-got-a-virus
+
+### DESCRIEREA EXERCITIULUI:
+
+Trebuie să înțelegem capacitățile acestui fișier rău intenționat. 
+AVERTISMENT: ACEASTĂ PROVOCARE CONȚINE MALWARE REAL ȘI TREBUIE TESTATĂ ÎNTR-UN MEDIU SANDBOX întreaga provocare poate fi rezolvată folosind VirusTotal.
+
+### Intelegerea cerintei:
+
 Enuntul ne spune ca trebuie sa intelegem acest fisier rau intetionat. 
 Ne avertizeaza ca aceasta provocare contine Malware Real, si ar trebui sa testam intr-un
 mediu **SANDBOX** la intreaga provocare, si putem rezolva doar folosind **VirusTotal**
