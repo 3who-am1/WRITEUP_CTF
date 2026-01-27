@@ -1,8 +1,0 @@
-Definiții
-lsass.exe – Local Security Authority Subsystem Service: 
-            proces Windows responsabil cu aplicarea politicilor de securitate și stocarea parolelor în memorie.
-procdump.exe – Unealtă folosită pentru a crea dump-uri de memorie ale proceselor, 
-               folosită adesea pentru extragerea parolelor din lsass.exe.
-PowerShell History – Fișier care conține comenzile introduse anterior în terminalul PowerShell.
-MITRE ATT&CK – Bază de cunoștințe despre tacticile, tehnicile și procedurile folosite de atacatori cibernetici.
-EVTX – Formatul nativ al fișierelor de jurnal de evenimente Windows.

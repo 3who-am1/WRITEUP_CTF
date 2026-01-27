@@ -1,7 +1,16 @@
+# log-analysis1 - UNbreakable | Forensics | Easy | Writeup
+
+**DESCRIEREA CERINTEI:**
+
+Știm cu siguranță că un atacator a încercat să arunce parolele utilizatorilor pe sistemul vizat. 
+Folosind editorul de text preferat sau comenzile Terminal, vă rugăm să ne ajutați să găsim răspunsuri la următoarele întrebări.
+
+## INTELEGEREA CERINTEI:
+
 Ne spune ca un atacator a incercat sa arunce parolele
 utilizatorului pe sistemul vizat, preferat niste comenzi ale terminalului. 
 
-Noi trebuie doar sa gasim raspunsurile la urmatoarele intrebari:
+## INTREBARILE DE RASPUNS:
 
  Q1. Care este comanda completă folosită pentru a arunca procesul lsass 
      pe sistemul vizat? (Puncte: 100)
@@ -21,7 +30,7 @@ Noi trebuie doar sa gasim raspunsurile la urmatoarele intrebari:
 
 ---
 
-**Rezolvare:**
+### REZOLVARE:
 
 1. vedem ca trebuie sa extragem datele intr-un format de tip .zip,
    folosind comanda: 
@@ -30,7 +39,7 @@ Noi trebuie doar sa gasim raspunsurile la urmatoarele intrebari:
 
    Si ne extrage urmatoarele fisiere:
    
-  ...
+``` 
   inflating: PhysicalDrive0_1/Ntfs/$LogFile  
   inflating: PhysicalDrive0_1/Ntfs/$MFT  
   inflating: PhysicalDrive0_1/Ntfs/$MFTMirr  
@@ -38,7 +47,8 @@ Noi trebuie doar sa gasim raspunsurile la urmatoarele intrebari:
   inflating: processes.txt           
   inflating: services.txt            
   inflating: hoarderlog.json 
-  ...
+
+```
 
 
 2. Observam ca ne-a extras directoarele, fisiere, dar si de tip .json, .evtx, .etl, etc...,
@@ -52,20 +62,19 @@ Noi trebuie doar sa gasim raspunsurile la urmatoarele intrebari:
                            
                              cat SystemInfo/output.txt
    
-###**Ne afiseaza:**
+### Ne afiseaza:
 
-...
-
-                           Network Card(s):           1 NIC(s) Installed.\
-                           [01]: Intel(R) 82574L Gigabit Network Connection\
-                                 Connection Name: Ethernet0\
-                                 DHCP Enabled:    No\
-                                 IP address(es)\
-                                 [01]: 10.0.8.16\
-                                 [02]: fe80::2044:1feb:98c2:a511\
-                           Hyper-V Requirements:   A hypervisor has been detected. Features required for Hyper-V will not be displayed.
+```
+Network Card(s):           1 NIC(s) Installed.\
+[01]: Intel(R) 82574L Gigabit Network Connection\
+Connection Name: Ethernet0\
+DHCP Enabled:    No\
+IP address(es)\
+[01]: 10.0.8.16\
+[02]: fe80::2044:1feb:98c2:a511\
+Hyper-V Requirements:   A hypervisor has been detected. Features required for Hyper-V will not be displayed.
                                  
-
+```
 Si vedem ip-ul computeru-lui, care ar fi:
                   
                        10.0.8.16  ---> Raspunsul la intrebarea Q2  
@@ -81,7 +90,7 @@ Analizand din informatiile de acolo, vedem ca nu mai gasim vreo solutie la celel
    Si aceasta comanda cauta peste tot, si ne-ar afisa raspunsul:
 
    
-''''
+```
  
 ./PhysicalDrive0_0/PowerShellHistory/Users/bitsentinel/AppData/Roaming/Microsoft/Windows/PowerShell/PSReadLine/ConsoleHost_history.txt:C:\Users\BITSEN~1\AppData\Local
  \Temp\Procdump\procdump.exe -aacepteula -ma lsass.exe passwords.txt
@@ -96,14 +105,14 @@ Analizand din informatiile de acolo, vedem ca nu mai gasim vreo solutie la celel
 \Temp\Procdump\procdump64.exe -ma lsass.exe lsass.txt
 grep: ./PhysicalDrive0_0/Ntuser/Users/bitsentinel/NTUSER.DAT: fișierul binar conține textul căutat
 
-''''
+```
 
 
 Vedem ca la final este executat comanda: 
 
                        procdump64.exe -ma lsass.exe lsass.txt ---> Raspuns la intrebarea Q1
 ---
-##**!!!! BONUS !!!!**
+## !!!! BONUS !!!!
 
 Sa putem da seama care comanda e ceea corecta, e sa observam cum a folosit la celelalte, cum ar fii comanda:
                                              
@@ -150,6 +159,8 @@ Afiseaza: **net users**
    Accesam: MITRE ATT&CK Enterprise Matrix
    Trebuie sa gasim OS Credential Dumping, acela ar fi T1003
    
+<p align="center"><img src="imagini/mitreattack.png" width="100%"/></p>
+
    Deja am gasit raspunsul, acela ar fi: 
  
                     T1003:OS Credential Dumping  ---> Raspuns la intrebarea Q4
@@ -159,7 +170,7 @@ Afiseaza: **net users**
 
 
 ---
-##**!!!! EXPLICATIE !!!!**
+## !!!! EXPLICATIE !!!!
 
 Ce este **Mitre att&ck?**
 
@@ -195,7 +206,10 @@ Asa ca ar trebui sa apelam la niste tool-uri avansate, cum ar fi:
 Mai usor e sa accesam site-ul **gigasheet.com**, ne logam acolo, si observam ca ne spune sa inseram un fisier, facem ce ne spune si vedem ca chiar ne afiseaza toate datele.
 
 
-Din ceea ce vedem, codul **4798** apare ce-l mai des
+Din ceea ce vedem, codul **4798** apare ce-l mai des:
+
+<p align="center"><img src="imagini/gigasheet.png" width="100%"/></p>
+
 
                                       4798 ---> Raspuns la intrebarea Q5
  
@@ -204,6 +218,11 @@ Din ceea ce vedem, codul **4798** apare ce-l mai des
 Link explicatie la acel cod il gasiti aici:  
 
                              https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventid=4798
+
+Sau cum puteti vedea in imaginea de mai jos:
+
+<p align="center"><img src="imagini/cod4798.png" width="100%"/></p>
+
 
 ---
 Raspuns: 
@@ -239,3 +258,16 @@ Q4. Ce tehnică MITRE poate fi atribuită unui caz în care parolele sistemului 
 ##**Succes !!!! :))**
 
 ---
+
+
+## DEFINITIE COMENZILOR ATACATORULUI:
+
+```
+lsass.exe – Local Security Authority Subsystem Service: 
+            proces Windows responsabil cu aplicarea politicilor de securitate și stocarea parolelor în memorie.
+procdump.exe – Unealtă folosită pentru a crea dump-uri de memorie ale proceselor, 
+               folosită adesea pentru extragerea parolelor din lsass.exe.
+PowerShell History – Fișier care conține comenzile introduse anterior în terminalul PowerShell.
+MITRE ATT&CK – Bază de cunoștințe despre tacticile, tehnicile și procedurile folosite de atacatori cibernetici.
+EVTX – Formatul nativ al fișierelor de jurnal de evenimente Windows.
+```                                  

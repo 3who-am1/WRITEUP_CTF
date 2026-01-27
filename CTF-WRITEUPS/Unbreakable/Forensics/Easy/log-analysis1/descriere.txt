@@ -1,8 +1,0 @@
- DESCRIPTION
-We know for sure that an attacker attempted to dump the users' passwords on the targeted system. Using your favorite text editor or Terminal commands please help us find answers to the following questions.
-
-
- FILES
-These are necessary to solve the exercise
-File name	File size	Mime type	Actions
-log-analysis1.zip	70.4 MB	application/zip	
