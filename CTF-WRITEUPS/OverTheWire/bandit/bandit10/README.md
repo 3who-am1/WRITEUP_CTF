@@ -1,8 +1,18 @@
+# Bandit Level 10 → Level 11 | bandit10 | Writeup
+
+**DESCRIEREA EXERCITIULUI:**
+
+Parola pentru nivelul următor este stocată în fișier data.txt, care conține date codificate în baza 64
+
+## Comenzi care poate fi necesar pentru a rezolva acest nivel:
+
+    grep, sort, uniq, strings, base64, tr, tar, gzip, bzip2, xxd
+
+### REZOLVARE:
+
 Dupa ce am rezolvat la bandit9 si am obtinut parola, putem sa ne conectam la bandit10
 
 Parola pentru bandit10 il puteti gasi la bandit9.
-
-Rezolvare:
 
 1. Sa ne conectam la bandit10, folosim aceasta comanda:
 

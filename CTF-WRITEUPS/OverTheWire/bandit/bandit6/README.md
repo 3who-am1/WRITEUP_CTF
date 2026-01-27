@@ -1,8 +1,25 @@
+# Bandit Level 6 → Level 7 | bandit6 | Writeup
+
+**DESCRIEREA EXERCITIULUI:**
+
+Parola pentru nivelul următor este stocată undeva pe server și are toate proprietățile următoare:
+
+deținut de utilizatorul bandit7
+
+deținut de grupul bandit6
+
+33 de octeți în dimensiune
+
+## Comenzi care poate fi necesar pentru a rezolva acest nivel:
+
+    ls , cd , cat , file , du , find , grep
+
+
+### REZOLVARE:
+
 Dupa ce am rezolvat la bandit5 si am obtinut parola, putem sa ne conectam la bandit6
 
 Parola pentru bandit6 il puteti gasi la bandit5.
-
-Rezolvare:
 
 1. Sa ne conectam la bandit6, folosim aceasta comanda:
 

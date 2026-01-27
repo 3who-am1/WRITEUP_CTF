@@ -1,8 +1,18 @@
+# Bandit Level 8 → Level 9 | bandit8 | Writeup
+
+**DESCRIEREA EXERCITIULUI:**
+
+Parola pentru nivelul următor este stocată în fișier data.txt și este singura linie de text care apare o singură dată
+
+## Comenzi care poate fi necesar pentru a rezolva acest nivel:
+
+    grep, sort, uniq, strings, base64, tr, tar, gzip, bzip2, xxd
+
+### REZOLVARE:
+
 Dupa ce am rezolvat la bandit7 si am obtinut parola, putem sa ne conectam la bandit8
 
 Parola pentru bandit8 il puteti gasi la bandit7.
-
-Rezolvare:
 
 1. Sa ne conectam la bandit8, folosim aceasta comanda:
 

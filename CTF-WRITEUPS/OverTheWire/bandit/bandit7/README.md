@@ -1,8 +1,18 @@
+# Bandit Level 7 → Level 8 | bandit7 | Writeup
+
+**DESCRIEREA EXERCITIULUI:**
+
+Parola pentru nivelul următor este stocată în fișier data.txt lângă cuvânt milionime
+
+## Comenzi care poate fi necesar pentru a rezolva acest nivel:
+
+    man, grep, sort, uniq, strings, base64, tr, tar, gzip, bzip2, xxd
+
+### REZOLVARE:
+
 Dupa ce am rezolvat la bandit6 si am obtinut parola, putem sa ne conectam la bandit7
 
 Parola pentru bandit7 il puteti gasi la bandit6.
-
-Rezolvare:
 
 1. Sa ne conectam la bandit7, folosim aceasta comanda:
 
