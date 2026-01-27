@@ -35,6 +35,9 @@ Dar ceva se simte neregula, si este aproape ca si cum dezvoltatorul a lasat o ca
    Din acele informati introduc un email random si o parola care ar fi si dau pe butonul "login"
    Dar ne apare cu acest mesaj: Invalid *"credentials"*
 
+<p align="center"><img src="imagini/connect-site.png" width="100%"/></p>
+
+
 2. Sa dam seama ce se afiseaza dincolo de acest site, e sa il inspectam sau sa folosim comanda: *"curl"*
    Ce-l mai simplu e sa folosim comenzi, ca asa e mai frumos cand lucrezi pe terminal, si nu cu "Inspecteaza"
    
@@ -50,6 +53,9 @@ Dar ceva se simte neregula, si este aproape ca si cum dezvoltatorul a lasat o ca
                                        <!-- Remove before pushing to production! -->   
                                        <form id="loginForm">
    
+<p align="center"><img src="imagini/mesaj-codat.png" width="100%"/></p>
+
+
    Din cate putem observa, e un mesaj, si suntem nevoiti sa folosim tool-ul la cyberchef, sa vedem ce ne raspunde acolo
    inainte de a ne duce acolo, vedem ca e codificat in ROT13, dar ramane de vazut.
 
