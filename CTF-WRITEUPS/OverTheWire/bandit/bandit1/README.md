@@ -1,8 +1,18 @@
+# Bandit Level 0 → Level 1 | bandit1 | Writeup
+
+**DESCRIEREA EXERCITIULUI:**
+
+Parola pentru nivelul următor este stocată într-un fișier numit citește-mă situat în directorul de acasă. 
+Utilizați această parolă pentru a vă înregistra în bandit1 folosind SSH. Ori de câte ori găsiți o parolă 
+pentru un nivel, utilizați SSH (pe portul 2220) pentru a vă conecta la acel nivel și a continua jocul.
+
+## Comenzi care poate fi necesar pentru a rezolva acest nivel:
+
+                         ls , cd , cat , file , du , find
+### REZOLVARE:
+
 Avem parola ceea ce a fost stocata in fisierul *readme* la *bandit0*, si fiecare challenge rezolvat, unde gasim un sir de caractere, ila e parola, si cu fiecare challenge rezolvat
 putem sa ne conectam si la *bandit1*, *bandit2* si tot asa.
-
-
-Rezolvare:
 
 1. Introducem aceasta comanda pentru a ne conecta la *bandit1*:
 
