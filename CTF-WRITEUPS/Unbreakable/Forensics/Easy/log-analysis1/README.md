@@ -255,7 +255,7 @@ Q4. Ce tehnică MITRE poate fi atribuită unui caz în care parolele sistemului 
 ---
 
 
-##**Succes !!!! :))**
+## Succes !!!! :))
 
 ---
 
