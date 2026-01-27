@@ -73,24 +73,24 @@ Ne afiseaza:
 ---
 
 2. La a doua intrebare ne spune care este numele familiei malware? 
-    Sa cunoastem familia malware e sa analizam fisierul de pe site-ul metionat, **VirusTotal.com**.
-     Accesam site-ul, acolo la file, apasam pe optiunea "Choose file" si inseram **Malwere-sample**.
-      Dupa ce am inserat, observam ca ne apare acolo pe "Popular threat label" si in dreapta vedem "Family labels".
-       Si acolo ne spune ca sunt **petya**, **petr** si **diskcoder**, asa ca il lu-am pe prima varianta si acela ar fi raspuns-ul: petya
+   Sa cunoastem familia malware e sa analizam fisierul de pe site-ul metionat, **VirusTotal.com**.
+   Accesam site-ul, acolo la file, apasam pe optiunea "Choose file" si inseram **Malwere-sample**.
+   Dupa ce am inserat, observam ca ne apare acolo pe "Popular threat label" si in dreapta vedem "Family labels".
+   Si acolo ne spune ca sunt **petya**, **petr** si **diskcoder**, asa ca il lu-am pe prima varianta si acela ar fi raspuns-ul: "petya".
 
           Petya ---> raspuns la intrebarea Q2
 
 3. La a treia intrebare ne spune ce tip de malware este folosit pentru analiza?
-   Ca analiza de malware a fost folosita, e sa observam tot de pe **VirusTotal** si acolo ne spune 
+   Ca analiza de malware a fost folosita, e sa observam tot de pe **VirusTotal** si acolo ne spune,
    tot in tabelul acela in care ne informeaza la  "Popular threat label", observam ca este "trojan.petya", si nu numa acolo, 
    vedem si mai jos ca trojan e cel mai folosit, cum ar fi: (Trojan.Win32, Trojan.ransom.UAC, TRJ/WLT.b, etc..),
-   si acela ar fi raspuns-ul: Trojan
+   si acela ar fi raspuns-ul: "Trojan".
   
         Trojan ---> raspuns la intrebarea Q3
 
 4. La a patra intrebare ne spune sa furnizam data creari a unui fisier rau intentionat, asa cum este prezentat in **VirusTotal**.
    Sa putem da seama care este prezentat in **VirusTotal** si sa gasim data creari e sa accesam la "Details" si mai jos la "History",
-   vedem ca la "Creation Time" ne afiseaza data creari, (Creation Time: 2016-01-30 02:56:43 UTC)  
+   vedem ca la "Creation Time" ne afiseaza data creari, (Creation Time: 2016-01-30 02:56:43 UTC).  
    
         2016-01-30 02:56:43 UTC ---> raspuns la intrebarea Q4
 
