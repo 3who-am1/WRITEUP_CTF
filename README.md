@@ -67,41 +67,199 @@ Acest repo documentează progresul meu în:
 - Tooluri și explicații pentru fiecare challenge
 
 ```text
-writeups-Cyber_ctf
-├── Easy
-│   ├── Forensics
-│   │   ├── CyberEDU
-│   │   │   └── i-got-a-virus
-│   │   │       ├── descriere.txt
-│   │   │       ├── imagini
-│   │   │       │   ├── creatia-fisierului.png
-│   │   │       │   ├── ip-rauintentionat.png
-│   │   │       │   └── VirusTotalFamily.png
-│   │   │       ├── rezolvare.md
-│   │   │       └── teorema.txt
-│   │   ├── PicoCTF
-│   │   │   ├── Hidden_in_plainsight
-│   │   │   │   ├── descriere.txt
-│   │   │   │   ├── flag.txt
-│   │   │   │   ├── img.jpg
-│   │   │   │   ├── rezolvare.md
-│   │   │   │   └── steghide.md
-│   │   │   ├── RED
-│   │   │   │   ├── descriere.txt
-│   │   │   │   ├── explicatie.md
-│   │   │   │   ├── flag.txt
-│   │   │   │   └── Zsteg.md
-│   │   │   └── riddle_registry
-│   │   │       ├── confidential.pdf
-│   │   │       ├── descriere.txt
-│   │   │       ├── flag.txt
-│   │   │       └── rezolvare.md
-│   │   └── Unbreakable
-│   │       └── log-analysis1
-│   │           ├── definitie.txt
-│   │           ├── descriere.txt
-│   │           ├── imagini
-│   │           │   ├── cod4798.png
-│   │           │   ├── gigasheet.png
-│   │           │   └── mitreattack.png
-│   │           └── rezolvare.md
+CyberEDU
+│   └── Forensics
+│       ├── Easy
+│       │   └── i-got-a-virus
+│       │       ├── imagini
+│       │       │   ├── creatia-fisierului.png
+│       │       │   ├── ip-rauintentionat.png
+│       │       │   └── VirusTotalFamily.png
+│       │       └── README.md
+│       ├── Entry-Level
+│       │   └── basic-coms
+│       │       ├── imagini
+│       │       │   ├── Detail.png
+│       │       │   ├── Hex.png
+│       │       │   ├── http.png
+│       │       │   ├── StreamHTTP.png
+│       │       │   └── wireshark.png
+│       │       └── README.md
+│       ├── Medium
+│       │   └── forensics-disk
+│       │       ├── flag.txt
+│       │       └── README.md
+│       └── README.md
+├── OverTheWire
+│   └── bandit
+│       ├── bandit0.md
+│       ├── bandit10.md
+│       ├── bandit11.md
+│       ├── bandit12.md
+│       ├── bandit1.md
+│       ├── bandit2.md
+│       ├── bandit3.md
+│       ├── bandit4.md
+│       ├── bandit5.md
+│       ├── bandit6.md
+│       ├── bandit7.md
+│       ├── bandit8.md
+│       ├── bandit9.md
+│       └── imagini
+│           ├── catcomanda8.1.png
+│           ├── catcomanda9.1.png
+│           ├── compre.png
+│           ├── creare12.png
+│           ├── cyberchef11.png
+│           ├── llcomanda1.png
+│           ├── llcomanda2.png
+│           ├── llcomanda3.png
+│           ├── llcomanda4.1.png
+│           ├── llcomanda4.png
+│           ├── llcomanda5.1.png
+│           ├── llcomanda5.2.png
+│           ├── llcomanda5.3.png
+│           ├── lscomanda6.png
+│           ├── lscomanda7.png
+│           ├── lscomanda8.png
+│           ├── sortcomanda8.2.png
+│           ├── strings12.1.png
+│           ├── stringscomanda9.2.png
+│           ├── stringscomanda9.3.png
+│           ├── xxd12.2.png
+│           └── xxd12.png
+├── PicoCTF
+│   ├── Forensics
+│   │   └── Easy
+│   │       ├── Hidden_in_plainsight
+│   │       │   ├── descriere.txt
+│   │       │   ├── flag.txt
+│   │       │   ├── img.jpg
+│   │       │   ├── rezolvare.md
+│   │       │   └── steghide.md
+│   │       ├── RED
+│   │       │   ├── descriere.txt
+│   │       │   ├── flag.txt
+│   │       │   ├── RED.md
+│   │       │   └── Zsteg.md
+│   │       └── riddle_registry
+│   │           ├── confidential.pdf
+│   │           ├── descriere.txt
+│   │           ├── flag.txt
+│   │           └── rezolvare.md
+│   ├── General_Skills
+│   │   └── Medium
+│   │       └── ascii_number
+│   │           ├── bonux.txt
+│   │           ├── descriere.txt
+│   │           ├── flag.txt
+│   │           ├── imagini
+│   │           │   └── ascii.png
+│   │           └── rezolvare.txt
+│   └── Web
+│       └── Easy
+│           └── Crack_the_gate1
+│               ├── descriere.txt
+│               ├── flag.txt
+│               ├── imagini
+│               │   ├── connect-site.png
+│               │   └── mesaj-codat.png
+│               └── rezolvare.md
+├── root-me
+│   └── HTML_Source_code
+│       ├── descriere.txt
+│       ├── flag.txt
+│       ├── imagini
+│       │   └── v000001.png
+│       └── rezolvare.md
+├── Unbreakable
+│   ├── Forensics
+│   │   ├── Easy
+│   │   │   └── log-analysis1
+│   │   │       ├── definitie.txt
+│   │   │       ├── descriere.txt
+│   │   │       ├── imagini
+│   │   │       │   ├── cod4798.png
+│   │   │       │   ├── gigasheet.png
+│   │   │       │   └── mitreattack.png
+│   │   │       └── rezolvare.md
+│   │   └── Entry-Level
+│   │       ├── encoding-party
+│   │       │   ├── descrierea.txt
+│   │       │   ├── explicatie.md
+│   │       │   └── flag.txt
+│   │       ├── encoding-party2
+│   │       │   ├── descriere.txt
+│   │       │   ├── explicatie.md
+│   │       │   └── flag.txt
+│   │       └── is-this-a-doc-file
+│   │           ├── descriere.txt
+│   │           ├── explicatie.md
+│   │           ├── flag.txt
+│   │           └── unr.docx
+│   ├── Misc
+│   │   ├── Entry-Level
+│   │   │   ├── feedback-despre-unbreakable
+│   │   │   │   ├── descriere.txt
+│   │   │   │   ├── flag.txt
+│   │   │   │   └── rezolvare.txt
+│   │   │   ├── warmup-unr21
+│   │   │   │   ├── descriere.txt
+│   │   │   │   └── rezolvare.txt
+│   │   │   └── Warmup_UNR_21_Individual
+│   │   │       ├── descriere.txt
+│   │   │       └── rezolvari.txt
+│   │   └── Hard
+│   │       └── SchrodingerFiles
+│   │           ├── Descriere.txt
+│   │           ├── imagini
+│   │           │   └── MODEL.png
+│   │           ├── Rezolvare.md
+│   │           └── SchrodingerFiles.py
+│   ├── Reverse_Enginering
+│   │   └── Entry-Level
+│   │       └── better-cat
+│   │           ├── descriere.txt
+│   │           ├── flag.txt
+│   │           └── rezolvare.md
+│   ├── Steganography
+│   │   ├── Entry-Level
+│   │   │   ├── is-this-just-a-logo
+│   │   │   │   ├── descriere.txt
+│   │   │   │   ├── download.png
+│   │   │   │   ├── explicatie.md
+│   │   │   │   ├── flag.txt
+│   │   │   │   └── tooluri.txt
+│   │   │   └── see
+│   │   │       ├── descriere.txt
+│   │   │       ├── explicatie.md
+│   │   │       ├── flag.txt
+│   │   │       ├── see.png
+│   │   │       └── tooluri.txt
+│   │   └── Medium
+│   │       └── rgb
+│   │           ├── Descriere.txt
+│   │           ├── imagini
+│   │           │   ├── arate.png
+│   │           │   ├── bloc.png
+│   │           │   ├── dcode.png
+│   │           │   └── hexahue.png
+│   │           └── Rezolvare.md
+│   └── Web
+│       └── Entry-Level
+│           └── cat-buton
+│               ├── descriere.txt
+│               ├── explicatie.md
+│               ├── flag.txt
+│               └── tooluri.txt
+└── Vianu_CTF
+    └── PWN
+        └── cpppwn
+            ├── cpppwn.md
+            ├── descriere.txt
+            └── imagini
+                ├── file1.png
+                ├── main.png
+                ├── objdump1.png
+                ├── objdump2.png
+                └── objdump.png
