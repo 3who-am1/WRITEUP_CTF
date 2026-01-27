@@ -92,19 +92,32 @@ CyberEDU
 │       └── README.md
 ├── OverTheWire
 │   └── bandit
-│       ├── bandit0.md
-│       ├── bandit10.md
-│       ├── bandit11.md
-│       ├── bandit12.md
-│       ├── bandit1.md
-│       ├── bandit2.md
-│       ├── bandit3.md
-│       ├── bandit4.md
-│       ├── bandit5.md
-│       ├── bandit6.md
-│       ├── bandit7.md
-│       ├── bandit8.md
-│       ├── bandit9.md
+│       ├── bandit0
+│       │   └── README.md
+│       ├── bandit1
+│       │   └── README.md
+│       ├── bandit10
+│       │   └── README.md
+│       ├── bandit11
+│       │   └── README.md
+│       ├── bandit12
+│       │   └── README.md
+│       ├── bandit2
+│       │   └── README.md
+│       ├── bandit3
+│       │   └── README.md
+│       ├── bandit4
+│       │   └── README.md
+│       ├── bandit5
+│       │   └── README.md
+│       ├── bandit6
+│       │   └── README.md
+│       ├── bandit7
+│       │   └── README.md
+│       ├── bandit8
+│       │   └── README.md
+│       ├── bandit9
+│       │   └── README.md
 │       └── imagini
 │           ├── catcomanda8.1.png
 │           ├── catcomanda9.1.png
@@ -132,134 +145,102 @@ CyberEDU
 │   ├── Forensics
 │   │   └── Easy
 │   │       ├── Hidden_in_plainsight
-│   │       │   ├── descriere.txt
 │   │       │   ├── flag.txt
-│   │       │   ├── img.jpg
-│   │       │   ├── rezolvare.md
-│   │       │   └── steghide.md
+│   │       │   └── README.md
 │   │       ├── RED
-│   │       │   ├── descriere.txt
 │   │       │   ├── flag.txt
-│   │       │   ├── RED.md
-│   │       │   └── Zsteg.md
+│   │       │   └── README.md
 │   │       └── riddle_registry
-│   │           ├── confidential.pdf
-│   │           ├── descriere.txt
 │   │           ├── flag.txt
-│   │           └── rezolvare.md
+│   │           └── README.md
 │   ├── General_Skills
 │   │   └── Medium
 │   │       └── ascii_number
-│   │           ├── bonux.txt
-│   │           ├── descriere.txt
 │   │           ├── flag.txt
-│   │           ├── imagini
-│   │           │   └── ascii.png
-│   │           └── rezolvare.txt
+│   │           └── README.md
 │   └── Web
 │       └── Easy
 │           └── Crack_the_gate1
-│               ├── descriere.txt
 │               ├── flag.txt
 │               ├── imagini
 │               │   ├── connect-site.png
 │               │   └── mesaj-codat.png
-│               └── rezolvare.md
+│               └── README.md
 ├── root-me
 │   └── HTML_Source_code
-│       ├── descriere.txt
 │       ├── flag.txt
 │       ├── imagini
 │       │   └── v000001.png
-│       └── rezolvare.md
+│       └── README.md
 ├── Unbreakable
 │   ├── Forensics
 │   │   ├── Easy
 │   │   │   └── log-analysis1
-│   │   │       ├── definitie.txt
-│   │   │       ├── descriere.txt
 │   │   │       ├── imagini
 │   │   │       │   ├── cod4798.png
 │   │   │       │   ├── gigasheet.png
 │   │   │       │   └── mitreattack.png
-│   │   │       └── rezolvare.md
+│   │   │       └── README.md
 │   │   └── Entry-Level
 │   │       ├── encoding-party
-│   │       │   ├── descrierea.txt
-│   │       │   ├── explicatie.md
-│   │       │   └── flag.txt
+│   │       │   ├── flag.txt
+│   │       │   └── README.md
 │   │       ├── encoding-party2
-│   │       │   ├── descriere.txt
-│   │       │   ├── explicatie.md
-│   │       │   └── flag.txt
+│   │       │   ├── flag.txt
+│   │       │   └── README.md
 │   │       └── is-this-a-doc-file
 │   │           ├── descriere.txt
-│   │           ├── explicatie.md
 │   │           ├── flag.txt
-│   │           └── unr.docx
+│   │           └── README.md
 │   ├── Misc
 │   │   ├── Entry-Level
 │   │   │   ├── feedback-despre-unbreakable
-│   │   │   │   ├── descriere.txt
 │   │   │   │   ├── flag.txt
-│   │   │   │   └── rezolvare.txt
+│   │   │   │   └── README.md
 │   │   │   ├── warmup-unr21
-│   │   │   │   ├── descriere.txt
-│   │   │   │   └── rezolvare.txt
+│   │   │   │   └── README.md
 │   │   │   └── Warmup_UNR_21_Individual
-│   │   │       ├── descriere.txt
-│   │   │       └── rezolvari.txt
+│   │   │       └── README.md
 │   │   └── Hard
 │   │       └── SchrodingerFiles
-│   │           ├── Descriere.txt
 │   │           ├── imagini
 │   │           │   └── MODEL.png
-│   │           ├── Rezolvare.md
+│   │           ├── README.md
 │   │           └── SchrodingerFiles.py
 │   ├── Reverse_Enginering
 │   │   └── Entry-Level
 │   │       └── better-cat
-│   │           ├── descriere.txt
 │   │           ├── flag.txt
-│   │           └── rezolvare.md
+│   │           └── README.md
 │   ├── Steganography
 │   │   ├── Entry-Level
 │   │   │   ├── is-this-just-a-logo
-│   │   │   │   ├── descriere.txt
-│   │   │   │   ├── download.png
-│   │   │   │   ├── explicatie.md
 │   │   │   │   ├── flag.txt
-│   │   │   │   └── tooluri.txt
+│   │   │   │   └── README.md
 │   │   │   └── see
-│   │   │       ├── descriere.txt
-│   │   │       ├── explicatie.md
 │   │   │       ├── flag.txt
-│   │   │       ├── see.png
-│   │   │       └── tooluri.txt
+│   │   │       └── README.md
 │   │   └── Medium
 │   │       └── rgb
-│   │           ├── Descriere.txt
 │   │           ├── imagini
 │   │           │   ├── arate.png
 │   │           │   ├── bloc.png
 │   │           │   ├── dcode.png
 │   │           │   └── hexahue.png
-│   │           └── Rezolvare.md
+│   │           └── README.md
 │   └── Web
 │       └── Entry-Level
 │           └── cat-buton
-│               ├── descriere.txt
-│               ├── explicatie.md
 │               ├── flag.txt
-│               └── tooluri.txt
+│               └── README.md
 └── Vianu_CTF
     └── PWN
         └── cpppwn
-            ├── cpppwn.md
-            ├── descriere.txt
-            └── imagini
-                ├── file1.png
-                ├── main.png
-                ├── objdump1.png
-                ├── objdump2.png
-                └── objdump.png
+            ├── imagini
+            │   ├── file1.png
+            │   ├── main.png
+            │   ├── objdump1.png
+            │   ├── objdump2.png
+            │   └── objdump.png
+            └── README.md
+
