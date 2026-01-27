@@ -1,3 +1,13 @@
+# encoding-party2 - UNbreakable | Forensics | Entry-Level | Writeup
+
+**DESCRIEREA CERINTEI:**
+
+Ajută-ne să decodăm următorul șir și să aflăm veștile bune.
+
+RL vf ybbxvat sbe plorefrphevgl raguhfvnfgf.
+
+### REZOLVARE:
+
 Ne spune sa decodam urmatorul sir: 
 
                                    RL vf ybbxvat sbe plorefrphevgl raguhfvnfgf.

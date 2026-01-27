@@ -1,9 +1,0 @@
-Help us decode the following string:
-
-BQS?8F#ks-B5_]@B5B5<@;p9@@<tUBF])[hA8OkHA4Am[2u
-
-And let’s see what the result will lead us.
-
-Write the decoded string.
-
-Author: EY

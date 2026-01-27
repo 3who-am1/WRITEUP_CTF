@@ -1,6 +1,14 @@
+# is-this-a-doc-file - UNbreakable | Forensics | Entry-Level | Writeup
+
+**DESCRIEREA CERINTEI:**
+
+Trebuie să citim acest dosar.
+
+## INTELEGEREA CERINTEI:
+
 Enuntul problemei ne spune sa putem citi aceasta fila: unr.docx
 
-Rezolvare: 
+### REZOLVARE: 
 
 1. introducem comanda aceasta sa putem vedea ce tip de fisier e:
            

@@ -1,3 +1,17 @@
+# encoding-party - UNbreakable | Forensics | Entry-Level | Writeup
+
+**DESCRIEREA CERINTEI:**
+
+Ajutați-ne să decodăm următorul șir:
+
+BQS?8F#ks-B5_]@B5B5<@;p9@@<tUBF])[hA8OkHA4Am[2u
+
+Și să vedem ce ne va conduce rezultatul.
+
+Scrieți șirul decodificat.
+
+### REZOLVARE: 
+
 Ne spune sa decodam urmatorul sir: 
 
                                    BQS?8F#ks-B5_]@B5B5<@;p9@@<tUBF])[hA8OkHA4Am[2u
