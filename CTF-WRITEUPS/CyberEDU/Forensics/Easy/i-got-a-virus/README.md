@@ -1,4 +1,4 @@
-# i-got-a-virus - CyberEDU Forensics Writeup
+# i-got-a-virus – CyberEDU | Forensics | Easy | Writeup
 
 **DESCRIEREA EXERCITIULUI:**
 
