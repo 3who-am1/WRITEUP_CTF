@@ -1,7 +1,20 @@
+# Hidden in plainsight - PicoCTF | Forensics | Easy | Writeup
+
+**DESCRIEREA EXERCITIULUI:**
+
+Vi se oferă o imagine JPG aparent obișnuită. Ceva este ascuns din vedere în interiorul fișierului. 
+Sarcina dvs. este să descoperiți sarcina utilă ascunsă și să extrageți steagul.
+
+**SUGESTIE:**
+
+Descărcați imaginea jpg și citiți metadatele acesteia
+
+## INTELEGEREA CERINTEI:
+
 Problema ne spune clar ca avem o imagine de tip .jpg obsinuita. dar ceva din vedere e ascuns in interiorul fisierului.
 Noi trebuie sa descoperim o sarcina utila ascunsa si sa extragem flagul
 
-**Rezolvare:**
+### REZOLVARE:
 
 1. vedem ca ne da o idee precum sa descarcam imaginea si sa citim metadatele. Noi il descarcam, deschidem imaginea cu comanda:
 
