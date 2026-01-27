@@ -1,7 +1,16 @@
-**WRITEUP: Challenge-ul "Siruri de Caractere in C++" - VianuCTF**
+# cpppwn - Vianu_CTF | PWN | Writeup
 
+**DESCRIEREA CERINTEI:**
 
-Introducere:
+Notă: Această provocare a fost prezentată în prima întâlnire Vianu Hack Club 25.
+
+nc dpl.razvan.sh 30002
+
+## DEBLOCARE HINT:
+
+lookup ret2win
+
+### IINTRODUCERE:
 
 Salut, Daca vrei sa inveti hacking etic sau CTF-uri, acest writeup este perfect pentru tine! 
 Voi explica *pas cu pas, ca pe un prieten*, cum am rezolvat acest challenge,de la zero pana 
@@ -11,7 +20,7 @@ Ce este un CTF? CTF (Capture The Flag) este un joc unde trebuie sa gasesti un "f
 sau chiar o "vulnerabilitate" prin rezolvarea de puzzle-uri de securitate cibernetica
 
 ---
-BUN HAI SA INCEPEM:
+### REZOLVARE:
 
 1. Ce am primit?
 
