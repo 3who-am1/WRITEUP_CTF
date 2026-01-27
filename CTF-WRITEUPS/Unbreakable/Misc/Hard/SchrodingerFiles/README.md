@@ -1,9 +1,17 @@
-Enuntul ne spune in felul urmator:
+# SchrodingerFiles - UNbreakable | Misc | Hard | Writeup
+---
+
+**DESCRIEREA CERINTEI:**
+
+Ceva ciudat se întâmplă cu noul sistem de fişiere. 
+Se pare că stochează fișiere într-un mod ciudat, trebuie să găsesc o modalitate de a citi fișierele administratorului.
+
+## INTELEGEREA CERINTEI:
 
 Ca ceva ciudat ni se intampla cu noul sistem de fisier. Se pare ca stocheaza niste fisiere
 intr-un mod ciudat, si ar trebui sa gasim o modalitate de a citi fisierele *administratorului*.
 
-Rezolvare:
+## REZOLVARE:
 
 1. Prima data sa descarcam acel fisier *challenge.py* si apoi sa pornim acel server, serverul
    meu este "34.159.223.98:32537", dupa ce avem fisierul descarcat si acel server pornit, e 
@@ -477,7 +485,7 @@ if __name__ == "__main__":
 
    Si bingooo, flag-ul a aparut
 
-###BONUS
+### BONUS
 ------
 Mai jos aveti imaginea cum am exploatat acel server, pas cu pas:
 
@@ -486,7 +494,7 @@ Mai jos aveti imaginea cum am exploatat acel server, pas cu pas:
 ----
 
 ---
-###SCRIPT PENTRU EXPLOATARE
+### SCRIPT PENTRU EXPLOATARE
  
 Il gasiti in profil la mine, la SchrodingerFiles.py
 ---
