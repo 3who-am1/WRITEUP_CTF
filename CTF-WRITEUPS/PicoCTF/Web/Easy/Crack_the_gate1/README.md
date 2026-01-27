@@ -162,7 +162,7 @@ Dar ceva se simte neregula, si este aproape ca si cum dezvoltatorul a lasat o ca
 Flag : picoCTF{brut4_f0rc4_3e21b3a3}
 
 ---
-**##Oare de ce a functionat aceasta metoda?**
+## Oare de ce a functionat aceasta metoda?
 
 Validarea input-ului: Serverul valida că email și password sunt string-uri, dar nu verifica dacă sunt obiecte JSON cu operatori MongoDB
 
@@ -194,6 +194,6 @@ Test different injection vectors când una nu funcționează
 ---
 
 
-##**SUCCES :)))**
+## SUCCES :)))
 
 
