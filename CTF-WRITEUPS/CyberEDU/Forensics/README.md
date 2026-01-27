@@ -52,7 +52,8 @@ Forensics
             ├── descriere.txt
             ├── flag.txt
             ├── forensics-disk.zip
-            └── rezolvare.txt```
+            └── rezolvare.txt
+```
 
 ### De ce această structură
 
