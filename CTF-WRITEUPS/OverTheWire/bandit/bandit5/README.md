@@ -1,8 +1,22 @@
+# Bandit Level 5 → Level 6 | bandit5 | Writeup
+
+**DESCRIEREA EXERCITIULUI:**
+
+Parola pentru nivelul următor este stocată într-un fișier undeva sub the aici director și are toate proprietățile următoare:
+
+lizibil uman
+1033 octeți în dimensiune
+nu executabil
+
+## Comenzi care poate fi necesar pentru a rezolva acest nivel:
+
+    ls , cd , cat , file , du , find
+
+### REZOLVARE:
+
 Dupa ce am rezolvat la *bandit4* si am obtinut parola, putem sa ne conectam la *bandit5*
 
 Parola pentru *bandit5* il puteti gasi la *bandit4*.
-
-Rezolvare:
 
 1. Sa ne conectam la *bandit5*, folosim aceasta comanda:
 

@@ -1,8 +1,19 @@
+# Bandit Level 4 → Level 5 | bandit4 | Writeup
+
+**DESCRIEREA EXERCITIULUI:**
+
+Parola pentru nivelul următor este stocată în singurul care poate fi citit de om fișier în aici director. 
+Sfat: dacă terminalul dvs. este încurcat sus, încercați comanda “reset”.
+
+## Comenzi care poate fi necesar pentru a rezolva acest nivel:
+
+    ls , cd , cat , file , du , find
+
+### REZOLVARE:
+
 Dupa ce am rezolvat la *bandit3* si am obtinut parola, putem sa ne conectam la *bandit4*
 
 Parola pentru *bandit4* il puteti gasi la *bandit3*.
-
-Rezolvare:
 
 1. Sa ne conectam la *bandit4*, folosim aceasta comanda:
 
