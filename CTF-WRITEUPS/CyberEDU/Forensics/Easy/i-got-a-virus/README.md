@@ -13,7 +13,7 @@ Enuntul ne spune ca trebuie sa intelegem acest fisier rau intetionat.
 Ne avertizeaza ca aceasta provocare contine Malware Real, si ar trebui sa testam intr-un
 mediu **SANDBOX** la intreaga provocare, si putem rezolva doar folosind **VirusTotal**
 
-**REZOLVARE**
+### Cerintele Problemei
 
  Q1. Care este SHA256 al dosarului dat?
      (Puncte: 100)
@@ -33,6 +33,8 @@ mediu **SANDBOX** la intreaga provocare, si putem rezolva doar folosind **VirusT
      (Puncte: 100)
 
 ---
+
+**REZOLVARE**
 
 1. La prima intrebare ne spune, care este SHA256 al dosarului dat?
    Sa stim care este SHA256 putem folosi comanda aceasta:
