@@ -72,8 +72,8 @@ Ne afiseaza:
 
 ---
 
-2. La a doua intrebare ne spune care este numele familiei malware?\n
-   Sa cunoastem familia malware e sa analizam fisierul de pe site-ul metionat, **VirusTotal.com**.
+2. La a doua intrebare ne spune care este numele familiei malware? 
+    Sa cunoastem familia malware e sa analizam fisierul de pe site-ul metionat, **VirusTotal.com**.
 
    Accesam site-ul, acolo la file, apasam pe optiunea "Choose file" si inseram **Malwere-sample**.
 
