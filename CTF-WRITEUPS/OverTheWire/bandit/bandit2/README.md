@@ -1,8 +1,18 @@
+# Bandit Level 1 → Level 2 | bandit2 | Writeup
+
+**DESCRIEREA EXERCITIULUI:**
+
+Parola pentru nivelul următor este stocată într-un fișier numit - situat în directorul de acasă
+
+## Comenzi care poate fi necesar pentru a rezolva acest nivel:
+
+        ls , cd , cat , file , du , find
+
+### REZOLVARE:	
+
 Dupa ce am rezolvat la *bandit1* si am obtinut parola, putem conecta la *bandit2*.
 
 Parola pentru *bandit2* puteti gasi la *bandit1*
-
-Rezolvare:
 
 1. Sa ne conectam la *bandit2*, folosim aceasta comanda:
 
