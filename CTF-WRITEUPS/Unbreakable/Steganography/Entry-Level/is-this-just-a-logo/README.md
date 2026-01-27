@@ -1,6 +1,15 @@
+# is-this-just-a-logo - UNbreakable | Steganography | Entry-level | Writeup
+
+**DESCRIEREA CERINTEI:**
+
+Să aflăm dacă poza de mai jos este mai mult decât un logo.
+
+## INTELEGEREA CERINTEI:
+
 Ne spune ca trebuie sa aflam ca exista mai mult decat logo
 
-Pasi pentru rezolvare:
+
+### REZOLVARE:
 
 1. folosim cateva tool-uri pe care putem extrage informatii utile despre o imagine
    Tol-urile le gasiti tot aici, intr-un alt txt, tooluri.txt
@@ -10,6 +19,7 @@ Pasi pentru rezolvare:
                               strings download.png | head
 Ne afiseaza:
 
+```
 IHDR
 sRGB
 'tEXtComment
@@ -21,6 +31,7 @@ DDDDDDD
 /ED|
 yP\/
 
+```
 
 Vedem ca spune: Building a better workig world
 
@@ -47,3 +58,25 @@ Vedem la coment cu : Building a better working world
 Acesta este flag-ul gasit: Building a better workig world
 
 
+# COMENZI FOLOSITE:
+
+```
+1. exiftool ---> Citește și afișează toate metadatele unui fișier (imagine, pdf, audio etc.)
+   Cand o folosesti in CTF: Caut flag/coord GPS/comentarii ascunse în poze,
+                            PDF-uri, fișiere audio/video. Exemplu: exiftool imagine.jpg
+
+2. file ---> Îți spune exact ce tip de fișier este (chiar dacă extensia e falsă)
+   Cand o folosesti in CTF: Verifici dacă un fișier “text.txt” e de fapt PNG, ZIP, ELF etc. Exemplu: file suspicios
+
+
+3. strings ---> Extrage toate șirurile de caractere lizibile (minim 4 caractere) 
+                dintr-un fișier (de obicei binar)
+   Cand o folosesti in CTF: Caut flag-uri, mesaje, parole sau indicii ascunse în executabile, 
+                            imagini corupte etc. Exemplu: `strings binary
+
+4. head ---> afiseaza primele 10 lini
+
+
+Sporr la invatat !!!
+
+```
