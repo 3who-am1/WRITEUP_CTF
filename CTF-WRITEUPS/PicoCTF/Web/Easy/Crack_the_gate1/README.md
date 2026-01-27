@@ -1,10 +1,22 @@
+# Crack the Gate 1 - PicoCTF | Web | Easy | Writeup
+
+---
+**DESCRIEREA EXERCITIULUI:**
+
+Suntem în mijlocul unei anchete. Se crede că una dintre persoanele noastre de interes, ctf player, ascunde date sensibile în interiorul unui portal web restricționat. 
+Am descoperit adresa de e-mail pe care o folosește pentru a se conecta: ctf-player@picoctf.org. 
+Din păcate, nu știm parola, iar tehnicile obișnuite de ghicire nu au funcționat. Dar ceva se simte în neregulă... 
+este aproape ca și cum dezvoltatorul a lăsat o cale secretă. Poţi să-ţi dai seama?
+Detalii suplimentare vor fi disponibile după lansarea instanței dvs. de provocare.
+
+## INTELEGEREA CERINTEI:
+
 Provocarea ne spune ca suntem in mijloc-ul unei anchete, si se crede ca una din persoanele noastre, ctf player
 ascund niste date sensibile in interiorul unui port web *restrictionat*. Au descoperit adresa de e-mail pe care o foloseau
 de a se conecta la (ctf-player@picoctf.org). Si ne spune ca nu cunoastem parola, si tehnicile obisnuite de ghicire nu au functionat.
 Dar ceva se simte neregula, si este aproape ca si cum dezvoltatorul a lasat o cale secreta. Trebuie sa ne dam seama la asta.
 
----
-**indici si sugesti**
+**SUGESTII:**
 
 1. Dezvoltatorii lasă uneori note în cod; dar nu întotdeauna în text simplu.
 
@@ -12,7 +24,7 @@ Dar ceva se simte neregula, si este aproape ca si cum dezvoltatorul a lasat o ca
 
 ---
 
-**Rezolvare**
+### REZOLVARE:
 
 1. Observam ca dupa ce rulam instanta, ne spune clar ca "Site-ul ruleaza *aici*. 
    Si ne spune daca putem sa ne autentificam.
