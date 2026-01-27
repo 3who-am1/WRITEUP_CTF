@@ -1,3 +1,13 @@
+# SEE - UNbreakable | Steganography | Entry-Level | Writeup
+
+**DESCRIEREA CERINTEI:**
+
+Dacă îl puteți vedea, s-ar putea să-l recuperați!
+
+Format steag: CTF{sha256}
+
+### REZOLVARE:
+
 Vedem ca trebuie sa descarcam un fisier de tip .png si sa vizualizam imaginea
 
 pasi de rezolvare:
@@ -8,7 +18,7 @@ pasi de rezolvare:
 4. Deschidem imaginea si observam ca e o imagine de la mare, si vedem ceva scris acolo, acela e flag-ul
    dar e neclar, si neputand citind din aceea imagine
 
-Explicatie:
+**Explicatie:**
 
 
 1. Accesam site-ul: *https://georgeom.net/StegOnline/image*
@@ -64,3 +74,13 @@ SUCCESS !!! :)
 ---
 FLAG: ctf{335769a9feecef5e55ac464fe30a7c215856bc4b8eb67b0e019d894dda0c8a7}
 ---
+
+
+# SITE-URI UTILE:
+
+```
+1. https://29a.ch/photo-forensics/#forensic-magnifier
+2. https://georgeom.net/StegOnline/upload
+3. https://stylesuxx.github.io/steganography/
+
+```
