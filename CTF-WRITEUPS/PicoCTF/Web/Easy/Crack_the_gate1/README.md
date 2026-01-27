@@ -136,7 +136,7 @@ Dar ceva se simte neregula, si este aproape ca si cum dezvoltatorul a lasat o ca
    Dupa rezultat vedem ca ne afiseaza si flag-ul ce dorit
 
 ---
-#**EXPLICATIE LA COMENZILE PE CARE AM INTRODUS*
+### EXPLICATIE LA COMENZILE PE CARE AM INTRODUS:
 
                                                     curl -H "X-DEv-Access: yes"
 
