@@ -34,7 +34,7 @@ Ne afiseaza:
         4c1dc737915d76b7ce579abddaba74ead6fdb5b519a1ea45308b8c49b950655c  malware-sample
 ---
 
-<p align="center"><img src="imagini/creatia-fisierului.png" width="50%"/></p>
+<p align="center"><img src="imagini/creatia-fisierului.png" width="100%"/></p>
 
 
 **!!! ATENTIE !!!**
