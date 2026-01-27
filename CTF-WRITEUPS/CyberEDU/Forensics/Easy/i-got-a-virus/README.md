@@ -1,6 +1,6 @@
-### i-got-a-virus -CyberEDU Forensics Writeup
+### i-got-a-virus - CyberEDU Forensics Writeup
 
-### DESCRIEREA EXERCITIULUI:
+**DESCRIEREA EXERCITIULUI:**
 
 Trebuie să înțelegem capacitățile acestui fișier rău intenționat. 
 AVERTISMENT: ACEASTĂ PROVOCARE CONȚINE MALWARE REAL ȘI TREBUIE TESTATĂ ÎNTR-UN MEDIU SANDBOX întreaga provocare poate fi rezolvată folosind VirusTotal.
