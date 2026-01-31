@@ -80,7 +80,7 @@ if __name__ == "__main__":
                     este trimis înapoi în browserul tău între tag-uri <pre>.
 
 4. Dupa ce am explicat si lamurit treburile, sa accesam serverul challenge-ului si sa vedem ce ne afiseaza pe site.
-   Observa, ca putem sa inseram un IP, am decis sa inserez:
+   Observam, ca putem sa inseram un IP, am decis sa inserez:
 
                    127.0.0.1;ls -la 
     
@@ -88,7 +88,7 @@ if __name__ == "__main__":
 
 <p align="center"><img src="imagini/IP.png" width="100%"/></p>
 
-5. Opaa, observa ca am reusit sa injectam si sa obtinem ceeea ce dorim, acum ca observam ca avem **flag** acolo, e sa introducem aceasta comanda:
+5. Opaa, observam ca am reusit sa injectam si sa obtinem ceeea ce dorim, acum ca observam ca avem **flag** acolo, e sa introducem aceasta comanda:
 
          127.0.0.1;cat flag
 
