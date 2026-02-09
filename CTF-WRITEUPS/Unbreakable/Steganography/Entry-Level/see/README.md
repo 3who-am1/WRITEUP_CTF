@@ -10,7 +10,7 @@ Format steag: CTF{sha256}
 
 Vedem ca trebuie sa descarcam un fisier de tip .png si sa vizualizam imaginea
 
-pasi de rezolvare:
+### Pasi de rezolvare:
 
 1. folosim exiftool, nu vedem ceva important doar ca la filter e ceva Adaptive 
 2. folosim strings pentru metadate. nici-o informatie, doar siruri multe
@@ -18,7 +18,9 @@ pasi de rezolvare:
 4. Deschidem imaginea si observam ca e o imagine de la mare, si vedem ceva scris acolo, acela e flag-ul
    dar e neclar, si neputand citind din aceea imagine
 
-**Explicatie:**
+----
+
+**Alte încercări:** 
 
 
 1. Accesam site-ul: *https://georgeom.net/StegOnline/image*
