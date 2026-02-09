@@ -6,7 +6,7 @@ Dacă îl puteți vedea, s-ar putea să-l recuperați!
 
 Format steag: CTF{sha256}
 
-### REZOLVARE:
+### ÎNȚELEGEREA CERINȚEI:
 
 Vedem ca trebuie sa descarcam un fisier de tip .png si sa vizualizam imaginea
 
