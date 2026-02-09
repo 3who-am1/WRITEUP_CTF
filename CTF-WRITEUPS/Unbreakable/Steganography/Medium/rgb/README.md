@@ -8,13 +8,15 @@ Formatul steagului: sha256.
 
 Confirmarea steagului CTF{sha256}.
 
-### REZOLVARE:
+### ÎNȚELEGEREA PROBLEMEI:
 
 Salut, astazi vom rezolva RGB, enuntul ne spune in felul urmator:
 
 Hue a adunat acesti pixeli intr-o imagine ascuna in ea
 
-Rezolvare:
+----
+
+### Rezolvare:
 
 1. Observam ca avem un folder cu extensia .zip, descarcam si observam ca avem o imagine dupa
    ce am inserat aceasta comanda:
