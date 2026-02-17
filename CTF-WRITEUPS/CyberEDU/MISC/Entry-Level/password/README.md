@@ -83,9 +83,9 @@ Format steag: DCTF{sha256}
 
                           cat chall.py 
 
-  Si vedem in cod ca ne afiseze parola
+  Si vedem in cod ca ne afiseaza parola:
 
- <p align="center"><img src="imagini/cod.png" width="300px" height="300px" alt=" "></p>
+ <p align="center"><img src="imagini/cod.png" width="350px" height="350px" alt=" "></p>
 
 
  iar apoi introducem comanda cu parola gasita:
@@ -98,7 +98,7 @@ Format steag: DCTF{sha256}
 
 ### Dupa ce am terminat cei care sunt utilizatori pentru TERMUX, trebuie sa facem si la noi in sistem:
 
-   **DE ASEMENEA, PUTEM INSTALA SI CONFIGURA SI CUM AM ARATAT PENTRU TERMUX!!!!**
+   **DE ASEMENEA, PUTEM INSTALA SI CONFIGURA ASA CUM AM ARATAT PENTRU TERMUX!!!!**
 
 5. Dupa ce am reusit sa instalam **uncompyle6**, rulam aceasta comanda:
 
@@ -130,26 +130,31 @@ FELICITARI!!!
 ```text
 1. Modul de funcționare (Arhitectura):
 
-a) **uncompyle6 (Native Python):** Este scris în Python. El încearcă să transforme bytecode-ul înapoi în cod sursă folosind un sistem de „gramatică”. 
-   Practic, el parsează instrucțiunile și încearcă să potrivească tipare (patterns) pentru a reconstrui structuri precum if, while sau try-except.
+a) **uncompyle6 (Native Python): Este scris în Python. El încearcă să transforme bytecode-ul 
+   înapoi în cod sursă folosind un sistem de „gramatică”.Practic, el parsează instrucțiunile 
+   și încearcă să potrivească tipare (patterns) pentru a reconstrui structuri precum if, while sau try-except.
 
-b) **pycdc (C++ Deserializer):** Este scris în C++. Acesta nu se bazează pe librăriile interne ale Python, ci analizează direct structura binară a fișierului. 
-   Este un „disassembler” și „decompiler” de sine stătător, mult mai rapid și mai puțin dependent de mediul în care rulează.
+b) pycdc (C++ Deserializer): Este scris în C++. Acesta nu se bazează pe librăriile interne 
+   ale Python, ci analizează direct structura binară a fișierului.Este un „disassembler” și 
+   „decompiler” de sine stătător, mult mai rapid și mai puțin dependent de mediul în care rulează.
                 
 2. De ce pycdc este, de obicei, „mai bun”?
 
    În contextul securității cibernetice și al CTF-urilor, pycdc câștigă din următoarele motive:
 
-a) **Imunitatea la versiunea gazdă:** Dacă rulezi Python 3.12 în Termux și încerci să instalezi uncompyle6, acesta va eșua deoarece 
-   uncompyle6 însuși nu știe să ruleze pe un interpretor atât de nou. pycdc, fiind un binar compilat, nu are această problemă.
+a) Imunitatea la versiunea gazdă: Dacă rulezi Python 3.12 în Termux și încerci să instalezi 
+   uncompyle6, acesta va eșua deoarece uncompyle6 însuși nu știe să ruleze pe un interpretor atât 
+   de nou. pycdc, fiind un binar compilat, nu are această problemă.
 
-b) **Suport pentru Magic Numbers:** Fiecare versiune de Python are un „Magic Number” specific la începutul fișierului .pyc. 
-   uncompyle6 se oprește dacă nu recunoaște numărul, în timp ce pycdc are o tabelă internă actualizată constant pentru aproape orice versiune.
+b) Suport pentru Magic Numbers: Fiecare versiune de Python are un „Magic Number” specific la 
+   începutul fișierului .pyc. uncompyle6 se oprește dacă nu recunoaște numărul, 
+   în timp ce pycdc are o tabelă internă actualizată constant pentru aproape orice versiune.
             
 3. Când este uncompyle6 mai bun?
 
-   Există un singur scenariu unde uncompyle6 este superior: codul foarte vechi (Python 2.7 - 3.6) care conține structuri de control complexe. 
-   Deoarece uncompyle6 este scris în Python, „înțelege” uneori mai bine subtilitățile limbajului pentru versiunile 
+   Există un singur scenariu unde uncompyle6 este superior: codul foarte vechi (Python 2.7 - 3.6) 
+   care conține structuri de control complexe. Deoarece uncompyle6 este scris în Python, 
+   „înțelege” uneori mai bine subtilitățile limbajului pentru versiunile 
    pe care le suportă oficial, generând un cod sursă mai curat și mai ușor de citit decât pycdc.
 ```
 
