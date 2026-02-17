@@ -130,9 +130,10 @@ FELICITARI!!!
 ```text
 1. Modul de funcționare (Arhitectura):
 
-a) **uncompyle6 (Native Python): Este scris în Python. El încearcă să transforme bytecode-ul 
+a) uncompyle6 (Native Python): Este scris în Python. El încearcă să transforme bytecode-ul 
    înapoi în cod sursă folosind un sistem de „gramatică”.Practic, el parsează instrucțiunile 
-   și încearcă să potrivească tipare (patterns) pentru a reconstrui structuri precum if, while sau try-except.
+   și încearcă să potrivească tipare (patterns) pentru a reconstrui structuri precum if, while 
+   sau try-except.
 
 b) pycdc (C++ Deserializer): Este scris în C++. Acesta nu se bazează pe librăriile interne 
    ale Python, ci analizează direct structura binară a fișierului.Este un „disassembler” și 
