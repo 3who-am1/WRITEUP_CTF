@@ -34,11 +34,11 @@ Format steag: DCTF{sha256}
 
                       cat chall.pyc
 
-  Putem observa caractere si cateva scrieri zgomotoase, chiar si la acel flag afisand nu e ceea corect.
+  Putem observa caractere si cateva scrieri zgomotoase, chiar si la acel flag afisand nu e ceea corecta.
 
  <p align="center"><img src="imagini/cat.png" width="1796px" height="1039px" alt=" "></p>
 
-3. Dupa ce am putut analiza si observa, ar trebui sa **decopilam** acest fisier, cu ajutorul unor comenzi care ar trebui instalate si usor de folosit.
+3. Dupa ce am putut analiza si observa, ar trebui sa **decompilam** acest fisier, cu ajutorul unor comenzi care ar trebui instalate si usor de folosit.
 
 4. Aceea comanda se poate numi "uncompyle6". 
 
@@ -83,7 +83,12 @@ Format steag: DCTF{sha256}
 
                           cat chall.py 
 
-  Si vedem in cod ca ne afiseze parola, iar apoi introducem comanda cu parola gasita:
+  Si vedem in cod ca ne afiseze parola
+
+ <p align="center"><img src="imagini/cod.png" width="1796px" height="1039px" alt=" "></p>
+
+
+ iar apoi introducem comanda cu parola gasita:
 
                           python2 chall.py
   
@@ -91,7 +96,9 @@ Format steag: DCTF{sha256}
 
 ---
 
-### Dupa ce am terminat cei care sunt utilizatori pentru TERMUX, facem la noi in sistem:
+### Dupa ce am terminat cei care sunt utilizatori pentru TERMUX, trebuie sa facem si la noi in sistem:
+
+   **DE ASEMENEA, PUTEM INSTALA SI CONFIGURA SI CUM AM ARATAT PENTRU TERMUX!!!!**
 
 5. Dupa ce am reusit sa instalam **uncompyle6**, rulam aceasta comanda:
 
