@@ -108,8 +108,7 @@ Format steag: DCTF{sha256}
 
 6. Acum sa rulam cu python2, ne uitam in codul sursa al **chall.py**, stergem spre final care este scris **return**, si acum sa rulam:
 
-   De ce ar trebui sters acel **return**?, din cauza ca, atunci cand am decopilat cu **uncompyle6**, tind sa mai adauge un **return** la finalul,
-
+   De ce ar trebui sters acel **return**?, din cauza ca, atunci cand am decopilat cu **uncompyle6**, tind sa mai adauge un **return** la finalul, 
    fisierului pentru ca, in bytecode-ul Python, orice modul se termina tehnic cu o intructiune de return (de obicei return None).
 
                                python2 chall.py
