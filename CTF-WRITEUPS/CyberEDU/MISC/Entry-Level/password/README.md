@@ -25,7 +25,7 @@ Format steag: DCTF{sha256}
     
    Observam ca ne afiseaza: 
            
- <p align="center"><img src="imagini/file.png" width="1796px" height="1039px" alt=" "></p>
+ <p align="center"><img src="imagini/file.png" width="500px" height="500px" alt=" "></p>
 
 
  Si putem vedea ca la exiftool ne spune ca e un fisier necunoscut, dar si **compilat**, ar trebui sa o **decompilam**.
@@ -85,7 +85,7 @@ Format steag: DCTF{sha256}
 
   Si vedem in cod ca ne afiseze parola
 
- <p align="center"><img src="imagini/cod.png" width="1796px" height="1039px" alt=" "></p>
+ <p align="center"><img src="imagini/cod.png" width="300px" height="300px" alt=" "></p>
 
 
  iar apoi introducem comanda cu parola gasita:
