@@ -45,11 +45,11 @@ Hue a adunat acesti pixeli intr-o imagine ascunsa in ea
 <p align="center"><img src="imagini/arate.png" width="50%"/></p>
 
 
-Sa ajungeti acolo la acei pixeli e sa va ducweti mult **DREAPTA** si mult **JOS**
+Sa ajungeti acolo la acei pixeli e sa va duceti mult **DREAPTA** spre **JOS**
                                     
 
 5. Dupa ce avem acei pixeli in vizorul nostru, putem sa decodam in hexahue, poate va intrebati cum?
-   Foarte simplu, incepand de la gri si alb, tinand cont ca se ia cu tot 2 blocuri de la stanga la dreapta, si acele 2 blocuri cu 6 total, 
+   Foarte simplu, incepand de la gri si alb, tinand cont ca se ia cu 2 blocuri de la stanga la dreapta, si acele 2 blocuri cu 6 total, 
    cum e si in imaginea de jos:
 
 <p align="center"><img src="imagini/bloc.png" width="50%"/></p>
