@@ -12,7 +12,7 @@ Confirmarea steagului CTF{sha256}.
 
 Salut, astazi vom rezolva RGB, enuntul ne spune in felul urmator:
 
-Hue a adunat acesti pixeli intr-o imagine ascuna in ea
+Hue a adunat acesti pixeli intr-o imagine ascunsa in ea
 
 ----
 
@@ -36,7 +36,7 @@ Hue a adunat acesti pixeli intr-o imagine ascuna in ea
 
                                      gimp imagine.png
 
-4. Observam ca se deschidea editorul de imagini, sa putem aveea aceea imagine mai clara si mai concreta sa putem vedea acele culori, 
+4. Observam ca se deschide editorul de imagini, sa putem aveea aceea imagine mai clara si mai concreta sa putem vedea acele culori, 
    procedam in felul urmator:
 
    a) Sa marim imaginea sa fie ditamai dimensiunea mare, cu 2334% dimensiunea imagini, ar trebui sa arate cam asa:
@@ -45,14 +45,14 @@ Hue a adunat acesti pixeli intr-o imagine ascuna in ea
 <p align="center"><img src="imagini/arate.png" width="50%"/></p>
 
 
-Sa ajungeti acolo la acei pixeli e sa va ducweti mult **DREAPTA** si mult **JOS**
+Sa ajungeti acolo la acei pixeli e sa va duceti mult **DREAPTA** spre **JOS**
                                     
 
 5. Dupa ce avem acei pixeli in vizorul nostru, putem sa decodam in hexahue, poate va intrebati cum?
-   Foarte simplu, incepand de la gri si alb, tinand cont ca se ia cu tot 2 blocuri de la stanga la dreapta, si acele 2 blocuri cu 6 total, 
+   Foarte simplu, incepand de la gri si alb, tinand cont ca se ia cu 2 blocuri de la stanga la dreapta, si acele 2 blocuri cu 6 total, 
    cum e si in imaginea de jos:
 
-<p align="center"><img src="imagini/bloc.png" width="50%"/></p>
+<p align="center"><img src="imagini/bloc.png" width="10%"/></p>
 
 Cum ati vazut in imagine asa este in 6 total cate un patrat, 2*3 = 6
 
