@@ -34,7 +34,7 @@ Locatia lui ar insemna flag-ul.
 
 5. Tot ce trebuie sa facem e sa introducem informatiile gasite acolo pe site, cu latitudine si logitudine, cum se poate vedea in imaginea de jos:
 
-    <p align="center"><img src="imagini/gps.png" width="50%"/></p>
+    <p align="center"><img src="imagini/gps.png" width="100%"/></p>
 
 6. Observam ca sa gasit locatia, in Franta fiind orasul gasit:
 
