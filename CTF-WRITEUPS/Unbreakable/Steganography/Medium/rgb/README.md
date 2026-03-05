@@ -36,7 +36,7 @@ Hue a adunat acesti pixeli intr-o imagine ascunsa in ea
 
                                      gimp imagine.png
 
-4. Observam ca se deschidea editorul de imagini, sa putem aveea aceea imagine mai clara si mai concreta sa putem vedea acele culori, 
+4. Observam ca se deschide editorul de imagini, sa putem aveea aceea imagine mai clara si mai concreta sa putem vedea acele culori, 
    procedam in felul urmator:
 
    a) Sa marim imaginea sa fie ditamai dimensiunea mare, cu 2334% dimensiunea imagini, ar trebui sa arate cam asa:
