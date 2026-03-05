@@ -12,7 +12,7 @@ Confirmarea steagului CTF{sha256}.
 
 Salut, astazi vom rezolva RGB, enuntul ne spune in felul urmator:
 
-Hue a adunat acesti pixeli intr-o imagine ascuna in ea
+Hue a adunat acesti pixeli intr-o imagine ascunsa in ea
 
 ----
 
