@@ -52,7 +52,7 @@ Sa ajungeti acolo la acei pixeli e sa va duceti mult **DREAPTA** spre **JOS**
    Foarte simplu, incepand de la gri si alb, tinand cont ca se ia cu 2 blocuri de la stanga la dreapta, si acele 2 blocuri cu 6 total, 
    cum e si in imaginea de jos:
 
-<p align="center"><img src="imagini/bloc.png" width="50%"/></p>
+<p align="center"><img src="imagini/bloc.png" width="10%"/></p>
 
 Cum ati vazut in imagine asa este in 6 total cate un patrat, 2*3 = 6
 
